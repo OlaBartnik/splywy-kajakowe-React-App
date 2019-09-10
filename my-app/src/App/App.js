@@ -1,15 +1,29 @@
 import React from 'react';
-import './App.scss';
-import Button from "./Components/Button/button"
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+} from 'react-router-dom';
+
+// import './App.scss';
+import Main from "./Pages/Main/main";
+import Masovian from "./Pages/State/Masovian/masovian"
+
+
+// import Button from "./Components/Button/button"
 
 
 class App extends React.Component {
     render() {
-        return (
-            <>
-            <h1 className={"header"}>Hej!!</h1>
-            < Button />
-            </>)
+        return <HashRouter>
+            <Switch>
+                <Route exact path='/' component={Main}/>
+                {/*<Route path='/button' component={Button}/>*/}
+                <Route path='/masovian' component={Masovian}/>
+            </Switch>
+        </HashRouter>
     }
 }
 
