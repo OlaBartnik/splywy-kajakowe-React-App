@@ -7,12 +7,10 @@ import {
     NavLink,
 } from 'react-router-dom';
 
-// import './App.scss';
+import './App.scss';
 import Main from "./Pages/Main/main";
 import Masovian from "./Pages/State/Masovian/masovian"
 
-
-// import Button from "./Components/Button/button"
 
 
 class App extends React.Component {
@@ -20,7 +18,6 @@ class App extends React.Component {
         return <HashRouter>
             <Switch>
                 <Route exact path='/' component={Main}/>
-                {/*<Route path='/button' component={Button}/>*/}
                 <Route path='/masovian' component={Masovian}/>
             </Switch>
         </HashRouter>

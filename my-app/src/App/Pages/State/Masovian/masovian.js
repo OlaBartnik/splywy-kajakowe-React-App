@@ -1,16 +1,9 @@
 import React from 'react';
-import Single from "../../Single/single";
-
 import "./masovian.scss";
 
-class Masovian extends React.Component {
-    render() {
-        return (
-            <>
-                <Single/>
-            </>)
+class Masovian extends React.Component{
+    render() {return <div className={"masovianMap"}></div>
     }
 }
-
 
 export default Masovian;
