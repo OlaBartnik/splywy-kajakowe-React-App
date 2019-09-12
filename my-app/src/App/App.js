@@ -9,7 +9,8 @@ import {
 
 import './App.scss';
 import Main from "./Pages/Main/main";
-import Masovian from "./Pages/State/Masovian/masovian"
+import Masovian from "./Pages/State/Masovian/masovian";
+import Wkra from "./Pages/State/Masovian/Wkra/wkra";
 
 
 
@@ -19,6 +20,7 @@ class App extends React.Component {
             <Switch>
                 <Route exact path='/' component={Main}/>
                 <Route path='/masovian' component={Masovian}/>
+                <Route path='/wkra' component={Wkra}/>
             </Switch>
         </HashRouter>
     }
