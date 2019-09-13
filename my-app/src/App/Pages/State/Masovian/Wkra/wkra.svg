@@ -15,7 +15,10 @@
    version="1.1"
    id="svg7949"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="wkra.svg">
+   sodipodi:docname="wkra.svg"
+   inkscape:export-filename="C:\Users\Ola\Desktop\CODERSLAB\splywy-kajakowe-projekt-koncowy\wkra.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs7943">
     <inkscape:path-effect
@@ -633,9 +636,9 @@
         <path
            id="path1619"
            style="fill:none;stroke:#31708e;stroke-width:4.44416332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 285.97373,204.21828 c -8.31228,1.65428 -10.09689,-8.4858 -10.09689,-8.4858 -3.06649,-7.00778 -18.51052,-13.80451 -20.61088,-2.32275 0,0 -2.25248,3.21761 -11.31152,3.76541 -5.59486,0.33832 -9.84577,-4.56859 -14.59693,-10.18939 -3.79752,-4.4926 -3.61035,-7.35565 -6.20505,-10.32333 -4.04079,-4.62164 -5.78913,-7.60319 -14.1805,-11.19446 -4.2126,-1.4096 -7.74003,-6.78776 -11.28938,-9.45375 -2.24381,-1.68537 -4.47676,-1.34495 -7.11548,-2.11989 -4.19056,-1.23068 -8.47782,-6.18583 -13.39602,-3.77074 -7.85099,3.85525 -5.50425,-5.72065 -13.84288,-8.18751 -4.30536,-1.27368 -7.09811,-8.39332 -14.74152,-6.19609 -5.92727,-0.8286 -17.96432,0.60717 -17.7818,-2.4858 0.0933,-1.58063 -0.74812,2.49538 -11.80686,-8.91066 -6.64495,-6.85363 -1.12219,-0.41589 -7.18152,-14.82034 -3.41634,-8.12142 -9.11901,2.38604 -11.50138,-6.79764"
+           d="m 285.97373,204.21828 c -8.31228,1.65428 -10.09689,-8.4858 -10.09689,-8.4858 -3.06649,-7.00778 -18.51052,-13.80451 -20.61088,-2.32275 0,0 -2.25248,3.21761 -11.31152,3.76541 -5.59486,0.33832 -9.84577,-4.56859 -14.59693,-10.18939 -3.79752,-4.4926 -3.61035,-7.35565 -6.20505,-10.32333 -4.04079,-4.62164 -5.78913,-7.60319 -14.1805,-11.19446 -4.2126,-1.4096 -7.74003,-6.78776 -11.28938,-9.45375 -2.24381,-1.68537 -4.47676,-1.34495 -7.11548,-2.11989 -4.19056,-1.23068 -6.81792,-3.7251 -13.39602,-3.77074 -8.58245,-0.0595 -5.50425,-5.72065 -13.84288,-8.18751 -4.30536,-1.27368 -7.09811,-8.39332 -14.74152,-6.19609 -5.92727,-0.8286 -17.96432,0.60717 -17.7818,-2.4858 0.0933,-1.58063 -0.74812,2.49538 -11.80686,-8.91066 -6.64495,-6.85363 -0.23733,-6.19054 -7.73482,-9.2837 -5.46771,-2.25576 -6.08065,2.97833 -8.49518,3.33741 -1.77488,0.26395 -7.529892,-5.01395 -3.559501,-10.13506"
            inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cssssacsssscsssc" />
+           sodipodi:nodetypes="cssssacsssscssssc" />
       </g>
       <ellipse
          ry="12.435416"
@@ -654,7 +657,7 @@
       <ellipse
          ry="3.2023995"
          rx="3.0790834"
-         style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="circle1463"
          cx="270.40033"
          cy="162.78113" />
@@ -662,15 +665,15 @@
     <ellipse
        ry="3.2023995"
        rx="3.0790834"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse1513"
        cx="184.15109"
        cy="202.30626" />
     <ellipse
        cy="175.1026"
-       cx="239.67632"
+       cx="239.12511"
        id="ellipse1515"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        rx="3.0790834"
        ry="3.2023995" />
     <text
@@ -699,44 +702,44 @@
        cy="175.47527"
        cx="214.70862"
        id="ellipse1532"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        rx="3.0790834"
        ry="3.2023995" />
     <ellipse
        ry="3.2023995"
        rx="3.0790834"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse1549"
-       cx="166.26376"
-       cy="210.13197" />
+       cx="165.71255"
+       cy="210.40758" />
     <ellipse
        ry="3.2023995"
        rx="3.0790834"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse1467"
-       cx="98.068344"
-       cy="239.19885" />
+       cx="97.79274"
+       cy="240.30128" />
     <ellipse
-       cy="220.56624"
-       cx="142.78665"
+       cy="218.08577"
+       cx="147.47198"
        id="ellipse1578"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        rx="3.0790834"
        ry="3.2023995" />
     <ellipse
        cy="193.36258"
        cx="198.31189"
        id="ellipse1580"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        rx="3.0790834"
        ry="3.2023995" />
     <ellipse
        ry="3.2023995"
        rx="3.0790834"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse1582"
-       cx="82.832649"
-       cy="252.4398" />
+       cx="80.903397"
+       cy="248.03008" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.00529167px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -817,37 +820,37 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.00529167px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="142.72594"
-       y="228.05928"
+       x="144.10397"
+       y="227.23245"
        id="text1617"><tspan
          sodipodi:role="line"
          id="tspan1615"
-         x="142.72594"
-         y="228.05928"
+         x="144.10397"
+         y="227.23245"
          style="stroke-width:0.26458332">Sochocin</tspan></text>
     <ellipse
        cy="224.29276"
-       cx="122.6634"
+       cx="124.59265"
        id="ellipse1621"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        rx="3.0790834"
        ry="3.2023995" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.00529167px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="123.34801"
-       y="231.41315"
+       x="125.27726"
+       y="232.23997"
        id="text1625"><tspan
          sodipodi:role="line"
          id="tspan1623"
-         x="123.34801"
-         y="231.41315"
+         x="125.27726"
+         y="232.23997"
          style="stroke-width:0.26458332">Kępa</tspan></text>
     <ellipse
        cy="226.15601"
        cx="112.97445"
        id="ellipse1627"
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:#800080;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.87073261;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        rx="3.0790834"
        ry="3.2023995" />
     <text
@@ -919,13 +922,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.00529167px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="101.73415"
-       y="245.20129"
+       x="96.497612"
+       y="247.68176"
        id="text1659"><tspan
          sodipodi:role="line"
          id="tspan1657"
-         x="101.73415"
-         y="245.20129"
+         x="96.497612"
+         y="247.68176"
          style="stroke-width:0.26458332">Płaciszewo</tspan></text>
     <text
        xml:space="preserve"
@@ -963,13 +966,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.00529167px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="86.455391"
-       y="257.12619"
+       x="79.289589"
+       y="255.74815"
        id="text1675"><tspan
          sodipodi:role="line"
          id="tspan1673"
-         x="86.455391"
-         y="257.12619"
+         x="79.289589"
+         y="255.74815"
          style="stroke-width:0.26458332">Dziektarzewo</tspan></text>
   </g>
 </svg>
