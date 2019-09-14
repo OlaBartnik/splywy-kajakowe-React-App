@@ -5,7 +5,6 @@ import {NavLink} from "react-router-dom";
 
 class Main extends React.Component {
 
-
     render() {
         return (
             <div className={"mainMap"}>
