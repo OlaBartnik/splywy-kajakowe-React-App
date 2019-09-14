@@ -2,9 +2,9 @@ import React from 'react';
 import {
     HashRouter,
     Route,
-    Link,
+    // Link,
     Switch,
-    NavLink,
+    // NavLink,
 } from 'react-router-dom';
 
 import './App.scss';

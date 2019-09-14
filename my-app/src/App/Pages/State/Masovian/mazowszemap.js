@@ -1,37 +1,15 @@
 import React from 'react';
+import "./mazowszemap.scss";
+
 
 class Mazowszemap extends React.Component {
     render() {
-        return <div><svg
+        return <div className={"mazowszeMapSize"}><svg
                         xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         version="1.1"
                         viewBox="0 0 101.161 101.448"
                     >
-                <defs>
-                    <font
-                        horizAdvX="1024"
-                        horizOriginX="0"
-                        horizOriginY="0"
-                        vertAdvY="90"
-                        vertOriginX="45"
-                        vertOriginY="90"
-                    >
-                        <font-face fontFamily="SVGFont 1" unitsPerEm="1024" />
-                    </font>
-                    <path
-                        id="b"
-                        fill="none"
-                        stroke="#000002"
-                        strokeDasharray="none"
-                        strokeLinecap="butt"
-                        strokeLinejoin="miter"
-                        strokeMiterlimit="4"
-                        strokeOpacity="1"
-                        strokeWidth="0.765"
-                        d="M17.866 163.256s5.324-1.468 7.919-.896c1.098.242 2.069 1.578 2.882 1.752 1.583.339 2.788.92 2.788.92s.087-.32 2.835 3.654v0"
-                    />
-                </defs>
                 <g transform="translate(-50.717 -108.693)">
                     <path
                         fill="none"

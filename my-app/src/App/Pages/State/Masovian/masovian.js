@@ -4,7 +4,9 @@ import Mazowszemap from "./mazowszemap";
 
 class Masovian extends React.Component {
     render() {
-        return <Mazowszemap/>
+        return (<div className={"masovianMap"}>
+            <Mazowszemap/>
+        </div>)
     }
 }
 
