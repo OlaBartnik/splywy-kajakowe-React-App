@@ -1,15 +1,17 @@
 import React from 'react';
 import "./mazowszemap.scss";
+import {NavLink} from "react-router-dom";
 
 
 class Mazowszemap extends React.Component {
     render() {
-        return <div className={"mazowszeMapSize"}><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                        version="1.1"
-                        viewBox="0 0 101.161 101.448"
-                    >
+        return <div className={"mazowszeMapSize"}>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                viewBox="0 0 101.161 101.448"
+            >
                 <g transform="translate(-50.717 -108.693)">
                     <path
                         fill="none"
@@ -129,7 +131,7 @@ class Mazowszemap extends React.Component {
                         strokeWidth="0.765"
                         d="M116.814 191.431c.36.359.645-1.295-2.913-3.85-1.071-.768-.025-2.476-4.225-3.188-.877-.149-2.578-.011-3.379-.717-1.676-1.479.15-4.207-.16-4.742l-2.34-4.04c-1.112-1.921 1.876-2.742.813-5.035-.737-1.589-.306-3.534-1.045-4.474-.752-.956-1.607-1.347-2.082-2.01-1.745-2.44-1.655-3.59-2.505-4.827-1.139-1.658 0 0-3.773-2.605-2.887-1.994-2.514-3.298-4.34-3.327-.828-.013-1.875-1.061-3.003-1.185-1.006-.11-2.076.649-3.112 1.407 0 0-5.151 1.993-7.79 1.683-1.116-.13-2.216-1.363-3.042-1.455-1.61-.179-2.867-.636-2.867-.636s-.054.327-3.186-3.352v0l-1.87-1.754s-1.797-1.405-2.564-1.699c-1.424-.545-2.037-.56-3.548-1.276-1.4-.663.661.53-4.32-2.66"
                     />
-                    <path
+                    <path className={"riverStyle"}
                         fill="none"
                         stroke="#31708e"
                         strokeDasharray="none"
@@ -270,7 +272,7 @@ class Mazowszemap extends React.Component {
                             textAlign: "start"
                         }}
                     />
-                    <path
+                    <path className={"riverStyle"}
                         fill="none"
                         stroke="#31708e"
                         strokeDasharray="none"
@@ -391,7 +393,7 @@ class Mazowszemap extends React.Component {
                         }}
                     >
                         <tspan
-                            style={{ lineHeight: "1" }}
+                            style={{lineHeight: "1"}}
                             x="87.048"
                             y="190.902"
                             strokeWidth="0.265"
@@ -399,7 +401,7 @@ class Mazowszemap extends React.Component {
                             Nowe Miasto
                         </tspan>
                         <tspan
-                            style={{ lineHeight: "1" }}
+                            style={{lineHeight: "1"}}
                             x="87.048"
                             y="193.372"
                             strokeWidth="0.265"
@@ -468,9 +470,9 @@ class Mazowszemap extends React.Component {
                         xmlSpace="preserve"
                     >
                         <flowRegion>
-                            <path d="M347.5 555.02H397.5V574.02H347.5z" />
+                            <path d="M347.5 555.02H397.5V574.02H347.5z"/>
                         </flowRegion>
-                        <flowPara />
+                        <flowPara/>
                     </flowRoot>
                     <text
                         x="88.239"
@@ -505,7 +507,7 @@ class Mazowszemap extends React.Component {
                             Pomiechówek
                         </tspan>
                     </text>
-                    <path
+                    <path className={"riverStyle"}
                         fill="none"
                         stroke="#31708e"
                         strokeDasharray="none"
@@ -706,7 +708,7 @@ class Mazowszemap extends React.Component {
                             textAlign: "start"
                         }}
                     >
-                        <textPath xlinkHref="#a" />
+                        <textPath xlinkHref="#a"/>
                     </text>
                     <flowRoot
                         fill="#000"
@@ -735,9 +737,9 @@ class Mazowszemap extends React.Component {
                         xmlSpace="preserve"
                     >
                         <flowRegion>
-                            <path d="M281 497.02H287V512.02H281z" />
+                            <path d="M281 497.02H287V512.02H281z"/>
                         </flowRegion>
-                        <flowPara />
+                        <flowPara/>
                     </flowRoot>
                     <flowRoot
                         fill="#000"
@@ -766,9 +768,9 @@ class Mazowszemap extends React.Component {
                         xmlSpace="preserve"
                     >
                         <flowRegion>
-                            <path d="M158 408.02H184V445.52H158z" />
+                            <path d="M158 408.02H184V445.52H158z"/>
                         </flowRegion>
-                        <flowPara />
+                        <flowPara/>
                     </flowRoot>
                     <text
                         x="80.698"
@@ -868,9 +870,9 @@ class Mazowszemap extends React.Component {
                         xmlSpace="preserve"
                     >
                         <flowRegion>
-                            <path d="M56 501.948H116.571V608.2339999999999H56z" />
+                            <path d="M56 501.948H116.571V608.2339999999999H56z"/>
                         </flowRegion>
-                        <flowPara />
+                        <flowPara/>
                     </flowRoot>
                     <text
                         x="105.189"
@@ -942,9 +944,9 @@ class Mazowszemap extends React.Component {
                         xmlSpace="preserve"
                     >
                         <flowRegion>
-                            <path d="M34.857 546.52H74.286V590.52H34.857z" />
+                            <path d="M34.857 546.52H74.286V590.52H34.857z"/>
                         </flowRegion>
-                        <flowPara />
+                        <flowPara/>
                     </flowRoot>
                     <flowRoot
                         fill="#000"
@@ -973,9 +975,9 @@ class Mazowszemap extends React.Component {
                         xmlSpace="preserve"
                     >
                         <flowRegion>
-                            <path d="M18.857 515.663H97.143V596.234H18.857z" />
+                            <path d="M18.857 515.663H97.143V596.234H18.857z"/>
                         </flowRegion>
-                        <flowPara />
+                        <flowPara/>
                     </flowRoot>
                     <text
                         x="144.525"
@@ -1107,12 +1109,14 @@ class Mazowszemap extends React.Component {
                         strokeLinejoin="miter"
                         strokeOpacity="1"
                     >
-                        <path
-                            strokeDasharray="none"
-                            strokeMiterlimit="4"
-                            strokeWidth="0.465"
-                            d="M85.476 146.97c-.882-1.307-.223-3.29-1.1-4.6-1.33-1.986-4.059-2.826-5.811-4.197-1.16-.908-1.712-.58-2.535-1.613-.994-1.25-.778-2.051-1.19-3.418-.432-1.438-5.631-.723-6.802-2.553-.68-1.064.678-3.749.356-4.942-.406-1.504-.219-3.215-1.058-4.198"
-                        />
+                        <NavLink to="/wkra">
+                            <path className={"riverStyle"}
+                                strokeDasharray="none"
+                                strokeMiterlimit="4"
+                                strokeWidth="0.465"
+                                d="M85.476 146.97c-.882-1.307-.223-3.29-1.1-4.6-1.33-1.986-4.059-2.826-5.811-4.197-1.16-.908-1.712-.58-2.535-1.613-.994-1.25-.778-2.051-1.19-3.418-.432-1.438-5.631-.723-6.802-2.553-.68-1.064.678-3.749.356-4.942-.406-1.504-.219-3.215-1.058-4.198"
+                            />
+                        </NavLink>
                         <path
                             strokeWidth="0.265"
                             d="M99.12 149.386c-1.399-.794-.442.588-2.476-1.094-2.075-1.717-6.077-.601-7.612 1.203l-.299 2.645"
@@ -1146,7 +1150,8 @@ class Mazowszemap extends React.Component {
                         ry="1.058"
                     />
                 </g>
-        </svg></div>;
+            </svg>
+        </div>;
     }
 }
 

@@ -10,3 +10,13 @@
 
 
 }
+
+.riverStyle {
+  stroke: #31708e;
+
+  &:hover {
+    stroke: #8fc1e3;
+    stroke-width: 0.8;
+    cursor: pointer;
+  }
+}

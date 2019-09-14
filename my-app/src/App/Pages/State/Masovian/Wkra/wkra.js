@@ -78,9 +78,10 @@ class RouteSelection extends React.Component {
             distance.push(26);
             minDuration.push(7);
             maxDuration.push(8);
-        } else if (start || end !== "Joniec" || start || end !== "Sochocin") {
-            message.push("nie mamy jak Cie zgarnać :D")
         }
+        // else if (start === "Borkowo" || start === "Śniadówko" || start === "Malużyn"|| start !== "Sochocin"|| start !== "Sochocin"|| start !== "Sochocin") {
+        //     message.push("nie mamy jak Cie zgarnać :D")
+        // }
         this.setState({
             distance: `${distance}km`,
             duration: `${minDuration}-${maxDuration}h`,
