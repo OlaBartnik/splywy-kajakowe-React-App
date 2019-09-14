@@ -1,5 +1,6 @@
 import React from 'react';
 import "./wkra";
+import Wkramap from "./wkramap";
 
 
 class RouteSelection extends React.Component {
@@ -129,7 +130,10 @@ class RouteSelection extends React.Component {
 
 class Wkra extends React.Component {
     render() {
-        return <RouteSelection/>
+        return <div className={"mainPageStyle"}>
+            <Wkramap/>
+            <RouteSelection/>
+        </div>
     }
 }
 

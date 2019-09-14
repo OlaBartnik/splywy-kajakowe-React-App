@@ -1,10 +1,10 @@
-.mazowszeMapSize {
+.mazowszeMapStyle {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-.mazowszeMapSize svg{
+.mazowszeMapStyle svg{
   transform: scale(0.45);
   flex-grow:1;
 
