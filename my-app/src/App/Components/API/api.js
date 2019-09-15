@@ -72,6 +72,8 @@ class API extends React.Component {
         this.refresh();
     }
 
+
+
     refresh(){
         let APIurl = `http://api.openweathermap.org/data/2.5/weather?id=${this.state.id}&lang=pl&APPID=3d6df3bc290f22a1f90a6f7ab363e060&units=metric`;
 
@@ -95,12 +97,7 @@ class API extends React.Component {
 
     }
 
-    // componentDidUpdate(prevProps, prevState){
-    //     if(prevState.id !== this.state.id){
-    //
-    //
-    //     }
-    // }
+
     render() {
         return (<div>
             <div id="openweathermap-widget-15"></div>
