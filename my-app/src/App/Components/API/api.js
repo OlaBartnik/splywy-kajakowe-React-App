@@ -8,16 +8,20 @@ class API extends React.Component {
         super(props);
         this.state = {
             city: "",
-            id: "",
+            id: "770028",
             error: false
         };
 
         this.setNewJs = this.setNewJs.bind(this);
+        this.refresh = this.refresh.bind(this);
+        this.changeID = this.changeID.bind(this);
     }
 
     setNewJs(cityid) {
         let script = this.newHeaderScript(cityid);
         let scriptbox = this.newWiget();
+
+        document.querySelector('#openweathermap-widget-15').innerHTML = '';
 
         if(document.querySelector('#pluginWeader')){
             document.querySelector('#pluginWeader').replaceWith(script);
@@ -57,8 +61,19 @@ class API extends React.Component {
         return script;
     }
 
+    changeID() {
+        let state = this.state;
+        state['id'] = 758681;
+        this.setState(state);
+        this.refresh();
+    }
+
     componentDidMount() {
-        let APIurl = "http://api.openweathermap.org/data/2.5/weather?id=770028&lang=pl&APPID=3d6df3bc290f22a1f90a6f7ab363e060&units=metric";
+        this.refresh();
+    }
+
+    refresh(){
+        let APIurl = `http://api.openweathermap.org/data/2.5/weather?id=${this.state.id}&lang=pl&APPID=3d6df3bc290f22a1f90a6f7ab363e060&units=metric`;
 
         fetch(APIurl)
             .then(response => {
@@ -69,45 +84,34 @@ class API extends React.Component {
             })
             .then(response => response.json())
             .then(data => {
-                console.log(data);
-                this.setState({error: false, city: data.name, id: data.id})
+                this.setState({error: false, city: data.name, id: data.id});
+                this.setNewJs(data.id);
             })
             .catch(err => {
-                console.log(err);
                 this.setState({error: true})
             });
 
-        this.setNewJs(770028);
+        // this.setNewJs(770028);
+
     }
 
+    // componentDidUpdate(prevProps, prevState){
+    //     if(prevState.id !== this.state.id){
+    //
+    //
+    //     }
+    // }
     render() {
         return (<div>
             <div id="openweathermap-widget-15"></div>
+            <button onClick={this.changeID}>Sochocin id 758681</button>
+            {this.state.id}
         </div>)
     }
 }
 
 export default API;
 
-//
-// return fetch(APIurl)
-//     .then(response => {
-//         if (response.ok) {
-//             return response
-//         }
-//         throw Error("nie udało sie")
-//     })
-//     .then(response => response.json())
-//     .then( data => console.log(data))
-//     // this.setState({error: false, city: data.name})
-//     //
-//
-//     .catch(err => {
-//         console.log(err);
-//         this.setState({error: true})
-// //     })
-// render() {
-//     return (<h1>{this.state.city}</h1>)
-// }
+
 
 // const APIurl = `api.openweathermap.org/data/2.5/weather?id=${id}&lang=pl&APPID=3d6df3bc290f22a1f90a6f7ab363e060&units=metric`;
