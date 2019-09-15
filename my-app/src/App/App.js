@@ -12,6 +12,7 @@ import Main from "./Pages/Main/main";
 import Masovian from "./Pages/State/Masovian/masovian";
 import Wkra from "./Pages/State/Masovian/Wkra/wkra";
 import Slider from "./Components/Slider/slider";
+import API from "./Components/API/api";
 
 
 
@@ -23,6 +24,7 @@ class App extends React.Component {
                 <Route path='/masovian' component={Masovian}/>
                 <Route path='/wkra' component={Wkra}/>
                 <Route path='/slider' component={Slider}/>
+                <Route path='/api' component={API}/>
 
 
             </Switch>

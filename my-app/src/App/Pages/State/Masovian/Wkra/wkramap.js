@@ -1,6 +1,6 @@
 import React from 'react';
 import "./wkramap.scss";
-import {NavLink} from "react-router-dom";
+// import {NavLink} from "react-router-dom";
 
 class Wkramap extends React.Component{
     render() {return<svg className={"wkraMapStyle"}
