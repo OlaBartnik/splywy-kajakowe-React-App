@@ -1,6 +1,4 @@
-object {
-  pointer-events: none;
-}
+
 .mainMap {
   $c1: rgba(#000, 0.4);
   height: 100vh;
@@ -20,28 +18,17 @@ object {
 }
 
 .mainMap path {
-  //fill: #687864;
   fill: #f7f9fb;
   fill-opacity: 0.6;
   transition: 0.3s fill;
 
 
   &:hover {
-    //fill: #1E747C;
     fill: #31708E;
     fill-opacity: 1;
     cursor: pointer;
+
   }
-  &::-ms-ticks-before{
-    content: "OLAAAAAAAAAAAAAAAAAAAAAAAAAAaa";
-    display: block;
-    position: absolute;
-    top:0;
-    left: 0;
-    background-color: red;
-    font-size: 40px;
-    z-index: 9999;
-    pointer-events:all;
-  }
+
 }
 
