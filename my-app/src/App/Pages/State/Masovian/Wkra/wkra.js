@@ -1,7 +1,8 @@
 import React from 'react';
 import "./wkra";
 import Wkramap from "./wkramap";
-// import API from "../../../../Components/API/api";
+import API from "../../../../Components/API/api";
+import Slider from "../../../../Components/Slider/slider";
 
 class RouteSelection extends React.Component {
     constructor(props) {
@@ -132,9 +133,12 @@ class RouteSelection extends React.Component {
 
 class Wkra extends React.Component {
     render() {
-        return <div className={"mainPageStyle"}>
-            <Wkramap/>
+        return <div className={"mainPageStyle"} style={{"background-color": "#f7f9fb"}}>
             <RouteSelection/>
+            <Wkramap/>
+            <API/>
+            <Slider/>
+
         </div>
     }
 }

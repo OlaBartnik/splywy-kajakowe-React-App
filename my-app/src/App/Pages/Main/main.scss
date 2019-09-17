@@ -1,13 +1,16 @@
+object {
+  pointer-events: none;
+}
 .mainMap {
-  $c1: rgba(#000, 0.45);
+  $c1: rgba(#000, 0.4);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient($c1, $c1), url("clouds-daylight-environment-786134.jpg");
-
-  //Photo by Adriaan Greyling from Pexels
+  background-image: linear-gradient($c1, $c1), url("../../Components/Images Wkra/autumn-972708_1920.jpg");
+  //Obraz <a href="https://pixabay.com/pl/users/LubosHouska-198496/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=972708"> Lubos Houska</a> z <a href="https://pixabay.com/pl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=972708"> Pixabay</a>
   background-size: cover;
+  background-position: center;
 
 }
 
@@ -17,16 +20,28 @@
 }
 
 .mainMap path {
-  //fill: #94add6;
-  //fill: #0C755B;
-  fill: #687864;
-  fill-opacity: 1;
+  //fill: #687864;
+  fill: #f7f9fb;
+  fill-opacity: 0.6;
   transition: 0.3s fill;
+
 
   &:hover {
     //fill: #1E747C;
     fill: #31708E;
+    fill-opacity: 1;
     cursor: pointer;
+  }
+  &::-ms-ticks-before{
+    content: "OLAAAAAAAAAAAAAAAAAAAAAAAAAAaa";
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: red;
+    font-size: 40px;
+    z-index: 9999;
+    pointer-events:all;
   }
 }
 

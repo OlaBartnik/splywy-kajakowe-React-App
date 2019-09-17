@@ -3,11 +3,12 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+
 }
 .mazowszeMapStyle svg{
-  transform: scale(0.45);
+  transform: scale(1.7);
   flex-grow:1;
-
+  path{fill-opacity: 0.6;}
 
 }
 
@@ -16,7 +17,7 @@
 
   &:hover {
     stroke: #8fc1e3;
-    stroke-width: 0.8;
+    stroke-width: 1px;
     cursor: pointer;
   }
 }

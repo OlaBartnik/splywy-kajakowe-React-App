@@ -14,3 +14,20 @@
   border: solid black 1px;
   z-index: 1;
 }
+
+.tooltip {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: red;
+  z-index: 9999999999999;
+  right: 0px;
+}
+
+.hide{
+  display: none;
+}

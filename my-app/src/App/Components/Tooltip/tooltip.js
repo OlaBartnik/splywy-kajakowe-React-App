@@ -1,10 +1,36 @@
-import React from 'react';
+import React, {Component} from 'react';
 import "./tooltip.scss";
+import Tooltip from 'react-tooltip-lite';
 
-class Tooltip extends React.Component{
-    render() {return <h1>ff</h1>
+class textTootlip extends Component {
+
+    state = {
+        on: false
     }
 
+
+    onMouseEnter = () => {
+
+        this.setState({on: true});
+        console.log("aaa");
+    }
+
+    onMouseLeave = () => {
+        this.setState({on: false});
+        console.log("adddada");
+    }
+
+
+    render() {
+        const {on} = this.state;
+        return (<div>
+            <div className={`tooltip`} data-text="To jest text tooltipa">
+                test
+            </div>
+            <span className={`tooltipText ${on ? "" : "hidden"}`}>aa</span>
+
+        </div>)
+    }
 }
 
-export default Tooltip;
+export default textTootlip;

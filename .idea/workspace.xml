@@ -17,47 +17,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.js">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="n#Wkramap#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/API/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="-2">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/App/App.js">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4257">
-              <caret line="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -74,12 +46,65 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="135" column="84" selection-start-line="135" selection-start-column="84" selection-end-line="135" selection-end-column="84" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#RouteSelection#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sodipodi:docname</find>
-      <find>mazowszeMap</find>
       <find>mazowszemap</find>
       <find>fill:</find>
       <find>navlin</find>
@@ -89,7 +114,6 @@
       <find>M103</find>
       <find>M116</find>
       <find>M116.814</find>
-      <find>nav</find>
       <find>tran</find>
       <find>ReactCSSTransitionGroup</find>
       <find>Joniec</find>
@@ -97,6 +121,20 @@
       <find>changeID</find>
       <find>console.log</find>
       <find>component</find>
+      <find>tar</find>
+      <find>navli</find>
+      <find>onToggle</find>
+      <find>onToggleOpen</find>
+      <find>nav</find>
+      <find>m85</find>
+      <find>m11</find>
+      <find>m103</find>
+      <find>m150</find>
+      <find>m116</find>
+      <find>clas</find>
+      <find>aaa</find>
+      <find>wid</find>
+      <find>cl</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Ola\Desktop\PROJECT\splywy-kajakowe-projekt-koncowy\my-app\src\App</dir>
@@ -108,28 +146,32 @@
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowsze.svg" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/a" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszeMap.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Pages/Main/main.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.js" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazoszemap.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.scss" />
         <option value="$PROJECT_DIR$/my-app/package.json" />
         <option value="$PROJECT_DIR$/my-app/public/index.html" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Components/Slider/slider.js" />
         <option value="$PROJECT_DIR$/my-app/src/App/Components/Slider/slider.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/App.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Components/Tooltip/tooltip.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Components/Tooltip/tooltip.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/Main/main.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/Main/main.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Components/API/api.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/Components/API/api.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Components/Slider/slider.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="396" />
-    <option name="y" value="81" />
+    <option name="x" value="612" />
+    <option name="y" value="70" />
     <option name="width" value="1125" />
     <option name="height" value="1030" />
   </component>
@@ -194,15 +236,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="splywy-kajakowe-projekt-koncowy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="splywy-kajakowe-projekt-koncowy" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Slider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,6 +254,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="splywy-kajakowe-projekt-koncowy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splywy-kajakowe-projekt-koncowy" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="splywy-kajakowe-projekt-koncowy" type="b2602c69:ProjectViewProjectNode" />
@@ -266,6 +308,14 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Ola\AppData\Roaming\npm\node_modules\prettier" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ola\Desktop\PROJECT\splywy-kajakowe-projekt-koncowy\my-app\src\App\Components\Images Wkra" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ola\Desktop\PROJECT\splywy-kajakowe-projekt-koncowy\my-app\src\App\Components\Images Wkra" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -288,19 +338,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568376899165</updated>
-      <workItem from="1568376900342" duration="49290000" />
+      <workItem from="1568376900342" duration="73584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49290000" />
+    <option name="totallyTimeSpent" value="73584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.50141644" side_tool="true" weight="0.15069398" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.19299406" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.17911434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -318,6 +368,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" sideWeight="0.50141644" side_tool="true" weight="0.15069398" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49858356" visible="true" weight="0.19299406" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -345,47 +415,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/Main/main.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowsze.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -401,13 +437,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/Images Wkra/wkra-1685383_1920.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -453,6 +482,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="545" column="8" selection-start-line="545" selection-start-column="8" selection-end-line="545" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/Tooltip/tooltip.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/Tooltip/tooltip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowsze2.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap — kopia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1115" column="46" selection-start-line="1115" selection-start-column="42" selection-end-line="1115" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowsze.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap — kopia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/Wkramapa.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/Main/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/Slider/slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -460,41 +558,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/Main/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="528">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/API/api.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/API/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/Slider/slider.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#127#153#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/Tooltip/tooltip.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/Main/main.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12012">
-          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="495">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -511,48 +616,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/App.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="297">
+          <caret line="135" column="84" selection-start-line="135" selection-start-column="84" selection-end-line="135" selection-end-column="84" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#RouteSelection#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4257">
-          <caret line="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="-132">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#Wkramap#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/@types/react/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/Slider/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="545" column="8" selection-start-line="545" selection-start-column="8" selection-end-line="545" selection-end-column="8" />
+        <state relative-caret-position="330">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#127#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Components/API/api.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="11583">
+          <caret line="301" column="29" selection-start-line="301" selection-start-column="27" selection-end-line="301" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>

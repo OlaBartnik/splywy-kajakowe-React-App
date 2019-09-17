@@ -1,6 +1,7 @@
 import React from 'react';
-
+import "./api.scss";
 // var APIkey = `3d6df3bc290f22a1f90a6f7ab363e060`;
+// bbe0c2ba1fbafc16bc5f9d6da20d6048
 
 class API extends React.Component {
 
@@ -75,7 +76,7 @@ class API extends React.Component {
 
 
     refresh(){
-        let APIurl = `http://api.openweathermap.org/data/2.5/weather?id=${this.state.id}&lang=pl&APPID=3d6df3bc290f22a1f90a6f7ab363e060&units=metric`;
+        let APIurl = `http://api.openweathermap.org/data/2.5/weather?id=${this.state.id}&lang=pl&APPID=bbe0c2ba1fbafc16bc5f9d6da20d6048&units=metric`;
 
         fetch(APIurl)
             .then(response => {
@@ -100,7 +101,7 @@ class API extends React.Component {
 
     render() {
         return (<div>
-            <div id="openweathermap-widget-15"></div>
+            <div id="openweathermap-widget-15" className={"widget"}></div>
             <button onClick={this.changeID}>Sochocin id 758681</button>
             {this.state.id}
         </div>)
