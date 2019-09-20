@@ -1,10 +1,10 @@
 import React from 'react';
 import "./wkramap.scss";
 
-// import {NavLink} from "react-router-dom";
+
 
 class Wkramap extends React.Component {
-    render() {return(<svg
+    render() {return(<svg className={"wkraMapStyle"}
             xmlns="http://www.w3.org/2000/svg"
             width="1080.111"
             height="146.31"

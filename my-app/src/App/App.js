@@ -27,8 +27,6 @@ class App extends React.Component {
                 <Route path='/slider' component={Slider}/>
 
 
-
-
             </Switch>
         </HashRouter>
     }

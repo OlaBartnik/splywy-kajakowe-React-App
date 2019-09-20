@@ -1,10 +1,18 @@
 
-.mainPageStyle{
-  display: flex;
-background-color: red;
+.formContainer   {
+  padding: 0 10px 10px;
+
 }
 
-.riverMap {
-display: block;
+.formContainer form {
+  padding-top: 20px;
+}
 
+.formSummary {
+  height: 200px;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
 }
