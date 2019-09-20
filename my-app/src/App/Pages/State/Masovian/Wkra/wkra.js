@@ -12,14 +12,13 @@ class RouteSelection extends React.Component {
             end: "end",
             distance: "",
             duration: "",
+            messageTitle: "",
+            messageFirst: "",
+            messageSecond: "",
+            messageThird: ""
         }
     }
 
-    threeCalls = e => {
-        this.handleChange();
-        this.setEndPoint();
-        this.setStartPoint();
-    }
 
     handleChange = e => {
         const value = e.target.value;
@@ -202,7 +201,11 @@ class RouteSelection extends React.Component {
         let distance = [];
         let minDuration = [];
         let maxDuration = [];
-        let message = [];
+        let messageTitle = [];
+        let messageFirst = [];
+        let messageSecond = [];
+        let messageThird = [];
+
         if (start === "Dziektarzewo" && end === "Płaciszewo") {
             distance.push(8);
             minDuration.push(2.5);
@@ -219,6 +222,8 @@ class RouteSelection extends React.Component {
             distance.push(23.6);
             minDuration.push(6);
             maxDuration.push(7);
+            messageTitle.push("UWAGA PRZENOSKA!");
+            messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.")
         } else if (start === "Płaciszewo" && end === "Małużyn") {
             distance.push(4.6);
             minDuration.push(1);
@@ -231,26 +236,43 @@ class RouteSelection extends React.Component {
             distance.push(15.6);
             minDuration.push(4);
             maxDuration.push(5);
+            messageTitle.push("UWAGA PRZENOSKA!");
+            messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.")
         } else if (start === "Małużyn" && end === "Sochocin") {
             distance.push(11);
             minDuration.push(3);
             maxDuration.push(4);
+            messageTitle.push("UWAGA PRZENOSKA!");
+            messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.")
         } else if (start === "Kępa" && end === "Sochocin") {
             distance.push(8.5);
             minDuration.push(2.5);
             maxDuration.push(3);
+            messageTitle.push("UWAGA PRZENOSKA!");
+            messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.")
         } else if (start === "Kępa" && end === "Bolęcin") {
             distance.push(15);
             minDuration.push(3.5);
             maxDuration.push(4.5);
+            messageTitle.push("UWAGA DWIE PRZENOSKI!");
+            messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.") ;
+            messageSecond.push("Sochocin:  jaz i bystrze - pozostałości po dawnym młynie. Miejsce niebezpieczne, przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.")
         } else if (start === "Kępa" && end === "Sobieski") {
             distance.push(19);
             minDuration.push(5.5);
             maxDuration.push(6);
+            messageTitle.push("UWAGA TRZY PRZENOSKI!");
+            messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.")  ;
+            messageSecond.push("Sochocin:  jaz i bystrze - pozostałości po dawnym młynie. Miejsce niebezpieczne, przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.") ;
+            messageThird.push("Bolęcin - przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
         } else if (start === "Kępa" && end === "Joniec") {
             distance.push(26);
             minDuration.push(7);
             maxDuration.push(8);
+            messageTitle.push("UWAGA TRZY PRZENOSKI!");
+            messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.")  ;
+            messageSecond.push("Sochocin:  jaz i bystrze - pozostałości po dawnym młynie. Miejsce niebezpieczne, przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.") ;
+            messageThird.push("Bolęcin - przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
         } else if (start === "Sochocin" && end === "Bolęcin") {
             distance.push(6.5);
             minDuration.push(2);
@@ -259,10 +281,14 @@ class RouteSelection extends React.Component {
             distance.push(10.5);
             minDuration.push(3);
             maxDuration.push(4);
+            messageTitle.push("UWAGA PRZENOSKA!");
+            messageFirst.push("Bolęcin - przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
         } else if (start === "Sochocin" && end === "Joniec") {
             distance.push(17.5);
             minDuration.push(4);
             maxDuration.push(5);
+            messageTitle.push("UWAGA PRZENOSKA!");
+            messageFirst.push("Bolęcin - przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
         } else if (start === "Bolęcin" && end === "Sobieski") {
             distance.push(4);
             minDuration.push(1);
@@ -296,7 +322,10 @@ class RouteSelection extends React.Component {
         this.setState({
             distance: `${distance}km`,
             duration: `${minDuration}-${maxDuration}h`,
-            message: message
+            messageTitle: messageTitle,
+            messageFirst: messageFirst,
+            messageSecond: messageSecond,
+            messageThird: messageThird
         })
     }
 
@@ -345,6 +374,14 @@ class RouteSelection extends React.Component {
                         <h3>Kilometry do przepłynięcia: {this.state.distance}</h3> : null}
                     {this.state.duration !== "" ?
                         <h3>Średni czas spływu: {this.state.duration} </h3> : null}
+                    {this.state.messageTitle !== "" ?
+                        <h3>{this.state.messageTitle} </h3> : null}
+                    {this.state.messageFirst !== "" ?
+                        <p>{this.state.messageFirst} </p> : null}
+                    {this.state.messageSecond !== "" ?
+                        <p>{this.state.messageSecond} </p> : null}
+                    {this.state.messageThird !== "" ?
+                        <p>{this.state.messageThird} </p> : null}
 
                 </div>
             </div>
