@@ -256,23 +256,23 @@ class RouteSelection extends React.Component {
             maxDuration.push(4.5);
             messageTitle.push("UWAGA DWIE PRZENOSKI!");
             messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.") ;
-            messageSecond.push("Sochocin:  jaz i bystrze - pozostałości po dawnym młynie. Miejsce niebezpieczne, przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.")
+            messageSecond.push("Sochocin: przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.")
         } else if (start === "Kępa" && end === "Sobieski") {
             distance.push(19);
             minDuration.push(5.5);
             maxDuration.push(6);
             messageTitle.push("UWAGA TRZY PRZENOSKI!");
             messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.")  ;
-            messageSecond.push("Sochocin:  jaz i bystrze - pozostałości po dawnym młynie. Miejsce niebezpieczne, przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.") ;
-            messageThird.push("Bolęcin - przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
+            messageSecond.push("Sochocin: przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.") ;
+            messageThird.push("Bolęcin: przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
         } else if (start === "Kępa" && end === "Joniec") {
             distance.push(26);
             minDuration.push(7);
             maxDuration.push(8);
             messageTitle.push("UWAGA TRZY PRZENOSKI!");
             messageFirst.push("Gutarzewo: pare kilometrów przed Sochocinem. Pod drewnianym mostem jaz, widoczne pale - pozostałości po konstrukcji mostu i spiętrzenia.  Przenoska prawą stroną rzeki.")  ;
-            messageSecond.push("Sochocin:  jaz i bystrze - pozostałości po dawnym młynie. Miejsce niebezpieczne, przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.") ;
-            messageThird.push("Bolęcin - przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
+            messageSecond.push("Sochocin: przenoska lewą stroną na wysokości betonowych umocnień po dawnym młynie.") ;
+            messageThird.push("Bolęcin: przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
         } else if (start === "Sochocin" && end === "Bolęcin") {
             distance.push(6.5);
             minDuration.push(2);
@@ -282,13 +282,13 @@ class RouteSelection extends React.Component {
             minDuration.push(3);
             maxDuration.push(4);
             messageTitle.push("UWAGA PRZENOSKA!");
-            messageFirst.push("Bolęcin - przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
+            messageFirst.push("Bolęcin: przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
         } else if (start === "Sochocin" && end === "Joniec") {
             distance.push(17.5);
             minDuration.push(4);
             maxDuration.push(5);
             messageTitle.push("UWAGA PRZENOSKA!");
-            messageFirst.push("Bolęcin - przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
+            messageFirst.push("Bolęcin: przenoska lewą stroną przy małej elektrowni wodnej (ok. 10 m.).")
         } else if (start === "Bolęcin" && end === "Sobieski") {
             distance.push(4);
             minDuration.push(1);
