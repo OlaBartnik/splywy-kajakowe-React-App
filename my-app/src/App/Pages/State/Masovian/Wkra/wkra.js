@@ -363,7 +363,6 @@ class RouteSelection extends React.Component {
 
                     </div>
                 </div>
-                {/*<API cityID={"770028"}/>*/}
 
             </div>
         )
@@ -422,6 +421,7 @@ class Wkra extends React.Component {
                     <Wkramap/>
                     <RouteSelection/>
                 </div>
+                <API cityID={"770028"}/>
                 <RiverDescritpion/>
                 <Slider/>
 

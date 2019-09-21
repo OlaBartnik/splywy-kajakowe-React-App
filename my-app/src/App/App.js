@@ -20,6 +20,7 @@ import Slider from "./Components/Slider/slider";
 class App extends React.Component {
     render() {
         return <HashRouter>
+            {/*<API cityID={"770028"}/>*/}
             <Switch>
                 <Route exact path='/' component={Main}/>
                 <Route path='/masovian' component={Masovian}/>
