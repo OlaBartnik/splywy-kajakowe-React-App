@@ -1,19 +1,77 @@
 
-.formContainer   {
-  padding: 0 10px 10px;
+.firstSiteContainer {
+  height: 100vh;
 
 }
 
-.formContainer form {
-  padding-top: 20px;
+.formContainer {
+  & h2 {
+    margin-top: 45px;
+    color: #31708e;
+  }
+
+  & form {
+    padding-top: 20px;
+  }
+
+  & label {
+    margin-right: 5px;
+  }
+
+  & select {
+    box-shadow: 0 1px 0 1px rgba(143, 193, 227, 0.3);
+    margin-left: 5px;
+    padding: 1px;
+    background-color: #f7f9fb;
+    border: 2px solid #8fc1e3;
+    border-radius: 5px;
+    outline: none;
+
+  }
+
+
+  & input {
+    padding: 4px 10px;
+    background-color: #f7f9fb;
+    border: 2px solid #8fc1e3;
+    box-shadow: 0 1px 0 1px rgba(143, 193, 227, 0.4);
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s background-color;
+
+    &:hover {
+      background-color: #8fc1e3;
+    }
+  }
+
 }
+
 
 .formSummary {
-  height: 300px;
-  width:1000px;
+  height: 250px;
+  max-width: 1200px;
+  margin: 0 auto;
   overflow: hidden;
+
+  & p {
+    font-size: 20px;
+  }
 }
 
 .hide {
   display: none;
+}
+
+.riverDescritpion {
+  height: 100vh;
+
+  & h2, h3, h4, h5, h6 {
+    font-size: 22px;
+    margin: 40px 0px 10px;
+    color: #31708e;
+  }
+
+  & p {
+    color: #333333;
+  }
 }

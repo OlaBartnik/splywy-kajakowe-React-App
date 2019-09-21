@@ -1,11 +1,19 @@
 .slider {
   position: relative;
   width: 800px;
-  margin: 0 auto;
+  margin: 40px auto 100px auto;
   height: 500px;
   overflow: hidden;
   white-space: nowrap;
   border-radius: 20px;
+
+}
+
+.sliderTitle {
+  font-size: 26px;
+  text-align: center;
+  color: #31708e;
+  margin-top: 100px;
 }
 
 .slider-wrapper {

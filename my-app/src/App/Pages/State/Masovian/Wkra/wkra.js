@@ -20,7 +20,8 @@ class RouteSelection extends React.Component {
     handleChange = e => {
         const value = e.target.value;
         const name = e.target.name;
-        this.setState({[name]: value,
+        this.setState({
+            [name]: value,
 
         });
 
@@ -312,8 +313,9 @@ class RouteSelection extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className={"firstSiteContainer"}>
                 <div className={"formContainer"}>
+                    <h2>Wyznacz trasę swojego spływu</h2>
                     <form onSubmit={this.handleSubmit}>
                         <label> Start spływu
                             <select id="startSelect" name="start" value={this.state.start}
@@ -325,7 +327,7 @@ class RouteSelection extends React.Component {
                                 <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
                                 <option data-id="Małużyn" value="Małużyn">Małużyn</option>
                                 <option data-id="Kępa" value="Kępa">Kępa</option>
-                                <option data-id="Sochocin"value="Sochocin">Sochocin</option>
+                                <option data-id="Sochocin" value="Sochocin">Sochocin</option>
                                 <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
                                 <option data-id="Sobieski" value="Sobieski">Sobieski</option>
                                 <option data-id="Joniec" value="Joniec">Joniec</option>
@@ -352,30 +354,63 @@ class RouteSelection extends React.Component {
                     </form>
                     <div className={"formSummary"}>
                         {this.state.distance !== "" ?
-                            <h3>Kilometry do przepłynięcia: {this.state.distance}</h3> : null}
+                            <p>Kilometry do przepłynięcia: {this.state.distance}</p> : null}
                         {this.state.duration !== "" ?
-                            <h3>Średni czas spływu: {this.state.duration} </h3> : null}
+                            <p>Średni czas spływu: {this.state.duration} </p> : null}
                         {this.state.message !== "" ?
-                            <h3>{this.state.message} </h3> : null}
+                            <p>{this.state.message} </p> : null}
 
                     </div>
                 </div>
                 <API cityID={"770028"}/>
+                <Wkramap/>
             </div>
         )
     }
 }
 
-class Wkra extends React.Component {
+class RiverDescritpion extends React.Component {
     render() {
-        return <div className={"mainPageStyle"} style={{"background-color": "#f7f9fb"}}>
-            <RouteSelection/>
-            <Wkramap/>
-
-            <Slider/>
-
-        </div>
+        return (
+            <div className={"riverDescritpion"}><h2>Co to za rzeka ...</h2><p>Rzeka Wkra – malownicza i bardzo urokliwa,
+                wijąca się wśród pól, łąk i lasów, czasem wrzynająca się w wysokie na kilka, kilkanaście metrów skarpy
+                porośnięte drzewami iglastymi i liściastymi. Dostarcza schronienia, pożywienia i jest miejscem
+                odpoczynku dla licznych gatunków flory i fauny. Przepływa przez dwa województwa, siedem powiatów i
+                dwadzieścia gmin. Wkra jest rzeką typowo nizinną, charakteryzującą się niewielkim spadkiem. Długość
+                rzeki podawana w różnych publikacjach wynosi ok. 249,1 km, a jej dorzecze 5322 km2.</p>
+                <h3>Skąd ta nazwa ...</h3><p>Nazwa rzeki Wkry notowana była już w I połowie XI wieku i nie pochodzi od
+                    słowa „kra” – jak to często niektórzy tłumaczą. Spływająca rzeką kra po zimowych roztopach nie miała
+                    żadnego większego znaczenia na tak małej rzece. Językoznawcy doszli do wniosku, że Wkra pochodzi od
+                    pruskiego Yikru, co znaczy zwrotny, żwawy, kręty. W „Falsyfikacie Mogileńskim” (ok. 1065 r.) pojawia
+                    się słowo „Nauchra”, które zdaniem badacza „Falsyfikatu” Józefa Płochy ma odnosić się do Wkry.
+                    Aleksander Brückner wywodzi nazwę rzeki od słowa Wiar, której nazwa z kolei pochodzi od Wjahor,
+                    Wjahra – co oznacza „kręty”, „krzywy”. Istnieją również zapiski mówiące, że nazwa rzeki może
+                    pochodzić od słowa „krza”, “krzów” czyli krzaków, którymi porastały brzegi rzeki.</p>
+                <h5>Historycznie ...</h5><p>Wkra, mimo że niezbyt szeroka, była rzeką spławną jeszcze w XIX wieku.
+                    Drewno spławiano do Narwi, a dalej do Wisły, ale jedynie wiosną, kiedy wody były wysokie. Rzeka
+                    zalewała wówczas olbrzymie połacie bagien, łąk i niżej położonych pól. Wody rzeki wykorzystywane
+                    były do celów przemysłowych. Wkra poruszała młyny, tartaki, folusze, które napędzane były przez koła
+                    wodne. Nad rzeką sytuowano też garbarnie. Rzekę traktowano również jako naturalny rezerwuar wody
+                    pitnej dla ludzi i zwierząt oraz na potrzeby higieny osobistej.
+                </p>
+                <h6>Współcześnie ...</h6><p>Rzeka Wkra idealnie nadaje się na dłuższe i krótsze spływy kajakowe. Jest
+                    szlakiem miejscami nieco uciążliwym ale bardzo ładnym i ciekawym co sprawiło, że nad brzegami w
+                    wielu miejscowościach powstały mniejsze i większe wypożyczalnie kajaków. Szlak kajakowy Wkry jest
+                    wymarzony na spływy indywidualne, rodzinne i grupowe. Woda w rzece jest czysta, a w ciepłych
+                    miesiącach lipca i sierpnia również bardzo płytka, co sprawia, że prawie w każdym miejscu można się
+                    zatrzymać i skorzystaćz kąpieli.</p></div>)
     }
 }
 
-export default Wkra;
+class Wkra extends React.Component {
+    render() {
+        return <div style={{maxWidth: "1200px", margin: "0 auto"}}>
+            <RouteSelection/>
+            <RiverDescritpion/>
+            <Slider/>
+
+            </div>
+        }
+}
+
+    export default Wkra;

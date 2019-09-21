@@ -66,7 +66,8 @@ class Slider extends React.Component {
     }
 
     render() {
-        return (
+        return (<div>
+            <h2 className={"sliderTitle"}>Wkra w obiektywie aparatu</h2>
             <div className="slider">
                 <div className="slider-wrapper"
                      style={{
@@ -87,6 +88,7 @@ class Slider extends React.Component {
                 <RightArrow
                     goToNextSlide={this.goToNextSlide}
                 />
+            </div>
             </div>
         );
     }
