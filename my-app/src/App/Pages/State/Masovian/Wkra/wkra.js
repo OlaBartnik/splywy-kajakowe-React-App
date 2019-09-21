@@ -2,6 +2,7 @@ import React from 'react';
 import "./wkra.scss";
 import Wkramap from "./wkramap";
 import API from "../../../../Components/API/api";
+import Navbar from "../../../../Components/NavBar/navbar"
 import Slider from "../../../../Components/Slider/slider";
 
 class RouteSelection extends React.Component {
@@ -313,57 +314,57 @@ class RouteSelection extends React.Component {
 
     render() {
         return (
-            <div className={"firstSiteContainer"}>
-                <div className={"formContainer"}>
-                    <h2>Wyznacz trasę swojego spływu</h2>
-                    <form onSubmit={this.handleSubmit}>
-                        <label> Start spływu
-                            <select id="startSelect" name="start" value={this.state.start}
-                                    onChange={this.handleChange}
-                                    onClick={this.setEndPoint}
-                            >
-                                <option id="startPoint" value="start" disabled={true}>Wybierz początek trasy</option>
-                                <option data-id="Dziektarzewo" value="Dziektarzewo">Dziektarzewo</option>
-                                <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
-                                <option data-id="Małużyn" value="Małużyn">Małużyn</option>
-                                <option data-id="Kępa" value="Kępa">Kępa</option>
-                                <option data-id="Sochocin" value="Sochocin">Sochocin</option>
-                                <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
-                                <option data-id="Sobieski" value="Sobieski">Sobieski</option>
-                                <option data-id="Joniec" value="Joniec">Joniec</option>
-                            </select>
-                        </label>
-                        <label> Koniec spływu
-                            <select id="endSelect" name="end" value={this.state.end}
-                                    onChange={this.handleChange}
-                                    onClick={this.setStartPoint}>
-                                <option id="endPoint" value="end" disabled={true}>Wybierz koniec trasy</option>
-                                <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
-                                <option data-id="Małużyn" value="Małużyn">Małużyn</option>
-                                <option data-id="Kępa" value="Kępa">Kępa</option>
-                                <option data-id="Sochocin" value="Sochocin">Sochocin</option>
-                                <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
-                                <option data-id="Sobieski" value="Sobieski">Sobieski</option>
-                                <option data-id="Joniec" value="Joniec">Joniec</option>
-                                <option data-id="Borkowo" value="Borkowo">Borkowo</option>
-                                <option data-id="Śniadówko" value="Śniadówko">Śniadówko</option>
-                                <option data-id="Pomiechówek" value="Pomiechówek">Pomiechówek</option>
-                            </select>
-                        </label>
-                        <input type="submit" value="Wyznacz trasę"/>
-                    </form>
-                    <div className={"formSummary"}>
-                        {this.state.distance !== "" ?
-                            <p>Kilometry do przepłynięcia: {this.state.distance}</p> : null}
-                        {this.state.duration !== "" ?
-                            <p>Średni czas spływu: {this.state.duration} </p> : null}
-                        {this.state.message !== "" ?
-                            <p>{this.state.message} </p> : null}
+            <div className={"formBackground"}>
+            <div className={"formContainer" + " container"}>
+                <h2>Wyznacz trasę swojego spływu</h2>
+                <form onSubmit={this.handleSubmit}>
+                    <label> Start spływu
+                        <select id="startSelect" name="start" value={this.state.start}
+                                onChange={this.handleChange}
+                                onClick={this.setEndPoint}
+                        >
+                            <option id="startPoint" value="start" disabled={true}>Wybierz początek trasy</option>
+                            <option data-id="Dziektarzewo" value="Dziektarzewo">Dziektarzewo</option>
+                            <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
+                            <option data-id="Małużyn" value="Małużyn">Małużyn</option>
+                            <option data-id="Kępa" value="Kępa">Kępa</option>
+                            <option data-id="Sochocin" value="Sochocin">Sochocin</option>
+                            <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
+                            <option data-id="Sobieski" value="Sobieski">Sobieski</option>
+                            <option data-id="Joniec" value="Joniec">Joniec</option>
+                        </select>
+                    </label>
+                    <label> Koniec spływu
+                        <select id="endSelect" name="end" value={this.state.end}
+                                onChange={this.handleChange}
+                                onClick={this.setStartPoint}>
+                            <option id="endPoint" value="end" disabled={true}>Wybierz koniec trasy</option>
+                            <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
+                            <option data-id="Małużyn" value="Małużyn">Małużyn</option>
+                            <option data-id="Kępa" value="Kępa">Kępa</option>
+                            <option data-id="Sochocin" value="Sochocin">Sochocin</option>
+                            <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
+                            <option data-id="Sobieski" value="Sobieski">Sobieski</option>
+                            <option data-id="Joniec" value="Joniec">Joniec</option>
+                            <option data-id="Borkowo" value="Borkowo">Borkowo</option>
+                            <option data-id="Śniadówko" value="Śniadówko">Śniadówko</option>
+                            <option data-id="Pomiechówek" value="Pomiechówek">Pomiechówek</option>
+                        </select>
+                    </label>
+                    <input type="submit" value="Wyznacz"/>
+                </form>
+                <div className={"formSummary"}>
+                    {this.state.distance !== "" ?
+                        <p>Kilometry do przepłynięcia: {this.state.distance}</p> : null}
+                    {this.state.duration !== "" ?
+                        <p>Średni czas spływu: {this.state.duration} </p> : null}
+                    {this.state.message !== "" ?
+                        <p>{this.state.message} </p> : null}
 
-                    </div>
                 </div>
-                <API cityID={"770028"}/>
-                <Wkramap/>
+            </div>
+                {/*<API cityID={"770028"}/>*/}
+
             </div>
         )
     }
@@ -404,13 +405,18 @@ class RiverDescritpion extends React.Component {
 
 class Wkra extends React.Component {
     render() {
-        return <div style={{maxWidth: "1200px", margin: "0 auto"}}>
-            <RouteSelection/>
-            <RiverDescritpion/>
-            <Slider/>
+        return (
+            <div>
+                <div style={{height: "100vh"}}>
+                    <Navbar/>
+                    <Wkramap/>
+                    <RouteSelection/>
+                </div>
+                <RiverDescritpion/>
+                <Slider/>
 
-            </div>
-        }
+            </div>)
+    }
 }
 
-    export default Wkra;
+export default Wkra;

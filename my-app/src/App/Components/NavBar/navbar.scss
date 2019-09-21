@@ -1,0 +1,41 @@
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: #5085A5;
+
+}
+
+.header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header img {
+  height: 80px;
+}
+
+
+.header__nav__list {
+  display: flex;
+}
+
+.header__nav__list a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 16px;
+  color: #f7f9fb;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s color;
+}
+
+.header__nav__list a:hover {
+  color: #800000;
+  //color: #FFE025;
+}

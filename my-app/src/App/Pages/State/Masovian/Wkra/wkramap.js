@@ -36,7 +36,7 @@ class Wkramap extends React.Component {
     }
 
     render() {
-        return (<div className={"wkraMapStyle"}>
+        return (<div className={"wkraMapStyle" +" container"} >
             <div style={this.state.style} className={"tooltipWkra " + this.state.classTooltip}>
                 {this.state.text}
             </div>
