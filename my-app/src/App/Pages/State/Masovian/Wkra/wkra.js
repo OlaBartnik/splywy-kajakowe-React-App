@@ -315,54 +315,54 @@ class RouteSelection extends React.Component {
     render() {
         return (
             <div className={"formBackground"}>
-            <div className={"formContainer" + " container"}>
-                <h2>Wyznacz trasę swojego spływu</h2>
-                <form onSubmit={this.handleSubmit}>
-                    <label> Start spływu
-                        <select id="startSelect" name="start" value={this.state.start}
-                                onChange={this.handleChange}
-                                onClick={this.setEndPoint}
-                        >
-                            <option id="startPoint" value="start" disabled={true}>Wybierz początek trasy</option>
-                            <option data-id="Dziektarzewo" value="Dziektarzewo">Dziektarzewo</option>
-                            <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
-                            <option data-id="Małużyn" value="Małużyn">Małużyn</option>
-                            <option data-id="Kępa" value="Kępa">Kępa</option>
-                            <option data-id="Sochocin" value="Sochocin">Sochocin</option>
-                            <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
-                            <option data-id="Sobieski" value="Sobieski">Sobieski</option>
-                            <option data-id="Joniec" value="Joniec">Joniec</option>
-                        </select>
-                    </label>
-                    <label> Koniec spływu
-                        <select id="endSelect" name="end" value={this.state.end}
-                                onChange={this.handleChange}
-                                onClick={this.setStartPoint}>
-                            <option id="endPoint" value="end" disabled={true}>Wybierz koniec trasy</option>
-                            <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
-                            <option data-id="Małużyn" value="Małużyn">Małużyn</option>
-                            <option data-id="Kępa" value="Kępa">Kępa</option>
-                            <option data-id="Sochocin" value="Sochocin">Sochocin</option>
-                            <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
-                            <option data-id="Sobieski" value="Sobieski">Sobieski</option>
-                            <option data-id="Joniec" value="Joniec">Joniec</option>
-                            <option data-id="Borkowo" value="Borkowo">Borkowo</option>
-                            <option data-id="Śniadówko" value="Śniadówko">Śniadówko</option>
-                            <option data-id="Pomiechówek" value="Pomiechówek">Pomiechówek</option>
-                        </select>
-                    </label>
-                    <input type="submit" value="Wyznacz"/>
-                </form>
-                <div className={"formSummary"}>
-                    {this.state.distance !== "" ?
-                        <p>Kilometry do przepłynięcia: {this.state.distance}</p> : null}
-                    {this.state.duration !== "" ?
-                        <p>Średni czas spływu: {this.state.duration} </p> : null}
-                    {this.state.message !== "" ?
-                        <p>{this.state.message} </p> : null}
+                <div className={"formContainer" + " container"}>
+                    <h2>Wyznacz trasę swojego spływu</h2>
+                    <form onSubmit={this.handleSubmit}>
+                        <label> Start spływu
+                            <select id="startSelect" name="start" value={this.state.start}
+                                    onChange={this.handleChange}
+                                    onClick={this.setEndPoint}
+                            >
+                                <option id="startPoint" value="start" disabled={true}>Wybierz początek trasy</option>
+                                <option data-id="Dziektarzewo" value="Dziektarzewo">Dziektarzewo</option>
+                                <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
+                                <option data-id="Małużyn" value="Małużyn">Małużyn</option>
+                                <option data-id="Kępa" value="Kępa">Kępa</option>
+                                <option data-id="Sochocin" value="Sochocin">Sochocin</option>
+                                <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
+                                <option data-id="Sobieski" value="Sobieski">Sobieski</option>
+                                <option data-id="Joniec" value="Joniec">Joniec</option>
+                            </select>
+                        </label>
+                        <label> Koniec spływu
+                            <select id="endSelect" name="end" value={this.state.end}
+                                    onChange={this.handleChange}
+                                    onClick={this.setStartPoint}>
+                                <option id="endPoint" value="end" disabled={true}>Wybierz koniec trasy</option>
+                                <option data-id="Płaciszewo" value="Płaciszewo">Płaciszewo</option>
+                                <option data-id="Małużyn" value="Małużyn">Małużyn</option>
+                                <option data-id="Kępa" value="Kępa">Kępa</option>
+                                <option data-id="Sochocin" value="Sochocin">Sochocin</option>
+                                <option data-id="Bolęcin" value="Bolęcin">Bolęcin</option>
+                                <option data-id="Sobieski" value="Sobieski">Sobieski</option>
+                                <option data-id="Joniec" value="Joniec">Joniec</option>
+                                <option data-id="Borkowo" value="Borkowo">Borkowo</option>
+                                <option data-id="Śniadówko" value="Śniadówko">Śniadówko</option>
+                                <option data-id="Pomiechówek" value="Pomiechówek">Pomiechówek</option>
+                            </select>
+                        </label>
+                        <input type="submit" value="Wyznacz"/>
+                    </form>
+                    <div className={"formSummary"}>
+                        {this.state.distance !== "" ?
+                            <p>Kilometry do przepłynięcia: {this.state.distance}</p> : null}
+                        {this.state.duration !== "" ?
+                            <p>Średni czas spływu: {this.state.duration} </p> : null}
+                        {this.state.message !== "" ?
+                            <p>{this.state.message} </p> : null}
 
+                    </div>
                 </div>
-            </div>
                 {/*<API cityID={"770028"}/>*/}
 
             </div>
@@ -372,34 +372,44 @@ class RouteSelection extends React.Component {
 
 class RiverDescritpion extends React.Component {
     render() {
-        return (
-            <div className={"riverDescritpion"}><h2>Co to za rzeka ...</h2><p>Rzeka Wkra – malownicza i bardzo urokliwa,
-                wijąca się wśród pól, łąk i lasów, czasem wrzynająca się w wysokie na kilka, kilkanaście metrów skarpy
-                porośnięte drzewami iglastymi i liściastymi. Dostarcza schronienia, pożywienia i jest miejscem
-                odpoczynku dla licznych gatunków flory i fauny. Przepływa przez dwa województwa, siedem powiatów i
-                dwadzieścia gmin. Wkra jest rzeką typowo nizinną, charakteryzującą się niewielkim spadkiem. Długość
-                rzeki podawana w różnych publikacjach wynosi ok. 249,1 km, a jej dorzecze 5322 km2.</p>
-                <h3>Skąd ta nazwa ...</h3><p>Nazwa rzeki Wkry notowana była już w I połowie XI wieku i nie pochodzi od
+        return (<div className={"riverBackground"}>
+            <div className={"riverDescritpion" + " container"}>
+                <article className={"article"}><h3>Co to za rzeka ...</h3><p>Rzeka Wkra – malownicza i bardzo urokliwa,
+                    wijąca się wśród pól, łąk i lasów, czasem wrzynająca się w wysokie na kilka, kilkanaście metrów
+                    skarpy
+                    porośnięte drzewami iglastymi i liściastymi. Dostarcza schronienia, pożywienia i jest miejscem
+                    odpoczynku dla licznych gatunków flory i fauny. Przepływa przez dwa województwa, siedem powiatów i
+                    dwadzieścia gmin. Wkra jest rzeką typowo nizinną, charakteryzującą się niewielkim spadkiem. Długość
+                    rzeki podawana w różnych publikacjach wynosi ok. 249,1 km, a jej dorzecze 5322 km2.</p></article>
+                <article className={"article"}>
+                    <h3>Skąd ta nazwa ...</h3><p>Nazwa rzeki Wkry notowana była już w I połowie XI wieku i nie pochodzi
+                    od
                     słowa „kra” – jak to często niektórzy tłumaczą. Spływająca rzeką kra po zimowych roztopach nie miała
                     żadnego większego znaczenia na tak małej rzece. Językoznawcy doszli do wniosku, że Wkra pochodzi od
-                    pruskiego Yikru, co znaczy zwrotny, żwawy, kręty. W „Falsyfikacie Mogileńskim” (ok. 1065 r.) pojawia
-                    się słowo „Nauchra”, które zdaniem badacza „Falsyfikatu” Józefa Płochy ma odnosić się do Wkry.
-                    Aleksander Brückner wywodzi nazwę rzeki od słowa Wiar, której nazwa z kolei pochodzi od Wjahor,
-                    Wjahra – co oznacza „kręty”, „krzywy”. Istnieją również zapiski mówiące, że nazwa rzeki może
+                    pruskiego Yikru, co znaczy zwrotny, żwawy, kręty.
+                    Inni wywodzą nazwę rzeki od słowa Wjahor, co oznacza „kręty”, „krzywy”. Istnieją również zapiski mówiące, że nazwa rzeki może
                     pochodzić od słowa „krza”, “krzów” czyli krzaków, którymi porastały brzegi rzeki.</p>
-                <h5>Historycznie ...</h5><p>Wkra, mimo że niezbyt szeroka, była rzeką spławną jeszcze w XIX wieku.
+                </article>
+                <article className={"article"}>
+                    <h3>Historycznie ...</h3><p>Wkra, mimo że niezbyt szeroka, była rzeką spławną jeszcze w XIX wieku.
                     Drewno spławiano do Narwi, a dalej do Wisły, ale jedynie wiosną, kiedy wody były wysokie. Rzeka
                     zalewała wówczas olbrzymie połacie bagien, łąk i niżej położonych pól. Wody rzeki wykorzystywane
                     były do celów przemysłowych. Wkra poruszała młyny, tartaki, folusze, które napędzane były przez koła
                     wodne. Nad rzeką sytuowano też garbarnie. Rzekę traktowano również jako naturalny rezerwuar wody
                     pitnej dla ludzi i zwierząt oraz na potrzeby higieny osobistej.
                 </p>
-                <h6>Współcześnie ...</h6><p>Rzeka Wkra idealnie nadaje się na dłuższe i krótsze spływy kajakowe. Jest
+                </article>
+                <article className={"article"}>
+                    <h3>Współcześnie ...</h3><p>Rzeka Wkra idealnie nadaje się na dłuższe i krótsze spływy kajakowe.
+                    Jest
                     szlakiem miejscami nieco uciążliwym ale bardzo ładnym i ciekawym co sprawiło, że nad brzegami w
                     wielu miejscowościach powstały mniejsze i większe wypożyczalnie kajaków. Szlak kajakowy Wkry jest
                     wymarzony na spływy indywidualne, rodzinne i grupowe. Woda w rzece jest czysta, a w ciepłych
                     miesiącach lipca i sierpnia również bardzo płytka, co sprawia, że prawie w każdym miejscu można się
-                    zatrzymać i skorzystaćz kąpieli.</p></div>)
+                    zatrzymać i skorzystaćz kąpieli.</p>
+                </article>
+            </div>
+        </div>)
     }
 }
 

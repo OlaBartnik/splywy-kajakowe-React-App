@@ -2,8 +2,9 @@
 // https://www.youtube.com/watch?v=GZ4d3HEn9zg
 import React from 'react';
 import "./slider.scss"
-import image1 from "../../Components/Images Wkra/river-2808802_1280.jpg";
-// Obraz <a href="https://pixabay.com/pl/users/marcinw-5057605/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2808802"> Marcin Wąż</a> z <a href="https://pixabay.com/pl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2808802"> Pixabay</a>
+import image1 from "../../Components/Images Wkra/autumn-972786_1920.jpg";
+// Obraz <a href="https://pixabay.com/pl/users/LubosHouska-198496/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=972786"> Lubos Houska</a> z <a href="https://pixabay.com/pl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=972786"> Pixabay</a>
+
 import image2 from "../../Components/Images Wkra/web-2591485_1920.jpg";
 // Obraz <a href="https://pixabay.com/pl/users/TeeFarm-199315/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2591485"> TeeFarm</a> z <a href="https://pixabay.com/pl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2591485"> Pixabay</a>
 
@@ -13,8 +14,8 @@ import image4 from "../../Components/Images Wkra/autumn-219972_1280.jpg";
 // Obraz <a href="https://pixabay.com/pl/users/Larisa-K-1107275/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=219972"> Larisa Koshkina</a> z <a href="https://pixabay.com/pl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=219972"> Pixabay</a>
 import image5 from "../../Components/Images Wkra/wkra-1685383_1920.jpg";
 // Obraz <a href="https://pixabay.com/pl/users/Demko-1495707/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1685383"> Demko</a> z <a href="https://pixabay.com/pl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1685383"> Pixabay</a>
-import image6 from "../../Components/Images Wkra/autumn-972786_1920.jpg";
-// Obraz <a href="https://pixabay.com/pl/users/LubosHouska-198496/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=972786"> Lubos Houska</a> z <a href="https://pixabay.com/pl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=972786"> Pixabay</a>
+import image6 from "../../Components/Images Wkra/river-2808802_1280.jpg";
+// Obraz <a href="https://pixabay.com/pl/users/marcinw-5057605/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2808802"> Marcin Wąż</a> z <a href="https://pixabay.com/pl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2808802"> Pixabay</a>
 import image7 from "../../Components/Images Wkra/clouds-daylight-environment-786134.jpg";
 
 import image8 from "../../Components/Images Wkra/lake-72843_1280.jpg"
@@ -66,9 +67,9 @@ class Slider extends React.Component {
     }
 
     render() {
-        return (<div>
+        return (<div className={"sliderContainer" + " container"}>
             <h2 className={"sliderTitle"}>Wkra w obiektywie aparatu</h2>
-            <div className="slider">
+            <div className={"slider"}>
                 <div className="slider-wrapper"
                      style={{
                          transform: `translateX(${this.state.translateValue}px)`,

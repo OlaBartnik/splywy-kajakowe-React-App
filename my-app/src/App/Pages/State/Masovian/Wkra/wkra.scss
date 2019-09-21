@@ -1,4 +1,3 @@
-
 //.firstSiteContainer {
 //  height: 100vh;
 //
@@ -7,13 +6,14 @@
 //background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./canoe-3794288_1920.jpg");
 //background-size: cover;
 //background-position: center;
-.formBackground{
+.formBackground {
   background: #5085A5;
   //background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url("./canoe-3794288_1920.jpg");
   //background-size: cover;
   //background-position: center;
   height: calc(100vh - 60px - 320px);
 }
+
 .formContainer {
   //border: 1px solid #5085A5;
   //border-radius: 10px;
@@ -30,7 +30,8 @@
     color: #f7f9fb;
 
   }
-  & p{
+
+  & p {
     text-align: left;
     padding-left: 25px;
     color: #f7f9fb;
@@ -92,16 +93,36 @@
   display: none;
 }
 
-.riverDescritpion {
-  //height: 100vh;
+.riverBackground {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url("./river-2808802_1280 (1).jpg");
+  background-size: cover;
+  background-position: center;
+}
 
-  & h2, h3, h4, h5, h6 {
+.riverDescritpion {
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+& article{
+  flex-grow: 0;
+  flex-basis: 500px;
+  border: 1px solid #5085A5;
+  box-shadow: 0 1px 0 1px rgba(80, 133, 165, 0.5);
+  padding: 10px;
+  margin-bottom: 30px;
+}
+  & h3 {
     font-size: 22px;
-    margin: 40px 0px 10px;
     color: #31708e;
   }
 
   & p {
-    color: #333333;
+    //color: #333333;
+    color: #000000;
   }
 }
+
