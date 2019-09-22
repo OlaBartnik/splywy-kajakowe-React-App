@@ -1,32 +1,15 @@
-//.firstSiteContainer {
-//  height: 100vh;
-//
-//}
-//
-//background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./canoe-3794288_1920.jpg");
-//background-size: cover;
-//background-position: center;
 .formBackground {
   background: #5085A5;
-  //background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url("./canoe-3794288_1920.jpg");
-  //background-size: cover;
-  //background-position: center;
   height: calc(100vh - 60px - 320px);
 }
 
 .formContainer {
-  //border: 1px solid #5085A5;
-  //border-radius: 10px;
-  //box-shadow: 0 1px 0 1px rgba(80, 133, 165, 0.5);
-  //background: #5085A5;
   width: 800px;
 
   text-align: center;
-  //background-color: #f7f9fb;
   & h2 {
     padding-top: 45px;
     padding-bottom: 20px;
-    //color: #31708e;
     color: #f7f9fb;
 
   }
@@ -37,9 +20,6 @@
     color: #f7f9fb;
   }
 
-  & form {
-    //padding-top: 20px;
-  }
 
   & label {
     margin-right: 5px;
@@ -49,7 +29,6 @@
   }
 
   & select {
-    //box-shadow: 0 1px 0 1px rgba(143, 193, 227, 0.3);
     margin-left: 5px;
     padding: 1px;
     background-color: #f7f9fb;
@@ -66,7 +45,6 @@
     background-color: #f7f9fb;
     border: 1px solid #5085A5;
     text-transform: uppercase;
-    //box-shadow: 0 1px 0 1px rgba(143, 193, 227, 0.4);
     border-radius: 5px;
     outline: none;
     transition: 0.4s all;
@@ -122,7 +100,6 @@
   }
 
   & p {
-    //color: #333333;
     color: #000000;
   }
 }
