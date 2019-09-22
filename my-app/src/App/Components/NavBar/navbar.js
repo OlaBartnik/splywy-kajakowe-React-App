@@ -2,7 +2,7 @@ import React from 'react';
 import "./navbar.scss";
 import {Link} from 'react-router-dom';
 import logo from "./—Pngtree—hand drawn kayaking kids characters_4076228.png";
-{/*<a href='https://pngtree.com/so/element ai'>element ai png from pngtree.com</a>*/}
+/*<a href='https://pngtree.com/so/element ai'>element ai png from pngtree.com</a>*/
 
 
 

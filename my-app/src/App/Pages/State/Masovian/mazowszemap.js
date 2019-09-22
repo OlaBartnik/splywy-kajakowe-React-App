@@ -16,16 +16,16 @@ class Mazowszemap extends React.Component {
                 viewBox="0 0 101.161 101.448"
             >
                 <defs>
-                    <font
-                        horizAdvX="1024"
-                        horizOriginX="0"
-                        horizOriginY="0"
-                        vertAdvY="90"
-                        vertOriginX="45"
-                        vertOriginY="90"
-                    >
-                        <font-face fontFamily="SVGFont 1" unitsPerEm="1024" />
-                    </font>
+                    {/*<font*/}
+                        {/*horizAdvX="1024"*/}
+                        {/*horizOriginX="0"*/}
+                        {/*horizOriginY="0"*/}
+                        {/*vertAdvY="90"*/}
+                        {/*vertOriginX="45"*/}
+                        {/*vertOriginY="90"*/}
+                    {/*>*/}
+                        {/*<font-face fontFamily="SVGFont 1" unitsPerEm="1024" />*/}
+                    {/*</font>*/}
                     <path
                         id="b"
                         fill="none"
