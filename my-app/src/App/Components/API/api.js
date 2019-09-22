@@ -24,7 +24,7 @@ class API extends React.Component {
         let script = this.newHeaderScript(cityid);
         let scriptbox = this.newWiget();
 
-        document.querySelector('#openweathermap-widget-19').innerHTML = '';
+        document.querySelector('#openweathermap-widget-13').innerHTML = '';
 
         if (document.querySelector('#pluginWeather')) {
             document.querySelector('#pluginWeather').replaceWith(script);
@@ -48,11 +48,11 @@ class API extends React.Component {
         script.innerHTML = `
         window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
         window.myWidgetParam.push({
-            id: 19,
+            id: 13,
             cityid: '${cityid}',
             appid: '3d6df3bc290f22a1f90a6f7ab363e060',
             units: 'metric',
-            containerid: 'openweathermap-widget-19'
+            containerid: 'openweathermap-widget-13'
         });`;
         return script;
     }
@@ -103,7 +103,7 @@ class API extends React.Component {
 
     render() {
         return (<div>
-            <div id="openweathermap-widget-19" className={"widget"}></div>
+            <div id="openweathermap-widget-13" className={"widget"}></div>
             {/*<button onClick={this.changeID}>Sochocin id 758681</button>*/}
             {/*{this.state.id}*/}
         </div>)

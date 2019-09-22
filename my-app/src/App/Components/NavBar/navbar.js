@@ -2,6 +2,7 @@ import React from 'react';
 import "./navbar.scss";
 import {Link} from 'react-router-dom';
 import logo from "./—Pngtree—hand drawn kayaking kids characters_4076228.png";
+// import API from "../../Components/API/api";
 /*<a href='https://pngtree.com/so/element ai'>element ai png from pngtree.com</a>*/
 
 
@@ -18,7 +19,9 @@ class Navbar extends React.Component {
                         <Link to="/wkra/">Galeria</Link>
                 </ul>
             </nav>
+                {/*<API cityID={"770028"}/>*/}
         </div>
+            {/*<API cityID={"770028"}/>*/}
 
     </header>
 

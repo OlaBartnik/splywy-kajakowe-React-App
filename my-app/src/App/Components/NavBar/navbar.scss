@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+//border: 1px solid red;
 
 }
 
@@ -21,13 +22,14 @@
 
 .header__nav__list {
   display: flex;
-  margin-right: 110px;
+
+
 }
 
 .header__nav__list a {
   text-decoration: none;
   padding: 20px;
-  font-size: 16px;
+  font-size: 18px;
   color: #f7f9fb;
   font-weight: bold;
   display: flex;
@@ -38,5 +40,41 @@
 
 .header__nav__list a:hover {
   color: #FFDE17;
-  //color: #FFE025;
+
 }
+//
+//
+//@media (max-width: 1500px) {
+//  .header__nav__list {
+//    margin-right: 220px;
+//  }
+//  .header__nav__list a{
+//    padding: 8px;
+//  }
+//}@media (max-width: 1370px) {
+//  .header__nav__list {
+//    margin-right: 200px;
+//  }
+//  .header__nav__list a{
+//    padding: 8px;
+//  }
+//}
+//@media (max-width: 1025px) {
+//  .header__nav__list {
+//    margin-right: 310px;
+//  }
+//  .header__nav__list a{
+//    padding: 8px;
+//  }
+//}
+//
+//.header img {
+//  margin-left: 30px;
+//}
+//
+//
+//@media (max-width: 700px) {
+//  .header__nav__list a{
+//    font-size: 14px;
+//  }
+//}

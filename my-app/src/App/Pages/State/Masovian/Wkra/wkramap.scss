@@ -1,13 +1,14 @@
 .wkraMapStyle {
-  height: 320px;
+  height: 310px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+
 }
 .wkraMapStyle svg {
   display: block;
-  transform: scale(1);
-  padding-top: 40px;
+  transform: scale(1.2);
+  padding-bottom: 30px;
 
 
 }

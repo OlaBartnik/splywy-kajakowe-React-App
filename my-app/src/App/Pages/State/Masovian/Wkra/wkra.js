@@ -416,7 +416,9 @@ class Wkra extends React.Component {
     render() {
         return (
             <div>
-                <div style={{height: "100vh"}}>
+                <div
+                    // style={{height: "100vh"}}
+                >
                     <Navbar/>
                     <Wkramap/>
                     <RouteSelection/>

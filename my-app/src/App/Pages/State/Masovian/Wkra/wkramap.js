@@ -667,7 +667,7 @@ class Wkramap extends React.Component {
                                 KIERUNEK SPŁYWU
                             </tspan>
                         </text>
-                        <ellipse className={"toolTipWkra"} data-text="PRZENOSKA lewą stroną przy małej elektrowni wodnej w Bolęcinie (ok. 10 m.)." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse className={"toolTipWkra"} data-text="PRZENOSKA lewą stroną przy małej elektrowni wodnej w Bolęcinie." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="215.363"
                             cy="26.45"
                             fill="#ffde17"
