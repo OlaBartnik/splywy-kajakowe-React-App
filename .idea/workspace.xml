@@ -16,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/Main/main.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+            <state relative-caret-position="2178">
+              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/App.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -76,11 +94,9 @@
         <option value="$PROJECT_DIR$/my-app/package.json" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/Main/main.js" />
         <option value="$PROJECT_DIR$/my-app/src/index.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss" />
         <option value="$PROJECT_DIR$/my-app/src/index.css" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/x.js" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/Wkramapa.svg" />
-        <option value="$PROJECT_DIR$/my-app/src/App/App.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/Components/Slider/slider.js" />
         <option value="$PROJECT_DIR$/my-app/src/App/Components/Slider/slider.scss" />
@@ -95,18 +111,20 @@
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkramap.js" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.js" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/Components/NavBar/navbar.js" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.scss" />
         <option value="$PROJECT_DIR$/my-app/src/App/Pages/Main/main.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/App/App.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-158" />
-    <option name="y" value="230" />
-    <option name="width" value="758" />
-    <option name="height" value="1030" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -177,7 +195,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="splywy-kajakowe-projekt-koncowy" type="b2602c69:ProjectViewProjectNode" />
@@ -187,6 +205,7 @@
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
               <item name="State" type="462c0819:PsiDirectoryNode" />
+              <item name="Masovian" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,19 +255,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568376899165</updated>
-      <workItem from="1568376900342" duration="157957000" />
+      <workItem from="1568376900342" duration="159877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157957000" />
+    <option name="totallyTimeSpent" value="159877000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-126" y="184" width="606" height="824" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.50708216" side_tool="true" weight="0.1731659" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49291784" visible="true" weight="0.05272408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49291784" visible="true" weight="0.22273628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -525,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/Wkra/wkra.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -577,20 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -604,8 +602,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/Main/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+        <state relative-caret-position="64">
+          <caret line="73" selection-start-line="73" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/masovian.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/Pages/State/Masovian/mazowszemap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>

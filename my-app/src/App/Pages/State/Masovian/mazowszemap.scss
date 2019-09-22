@@ -21,3 +21,55 @@
     cursor: pointer;
   }
 }
+
+@media (max-width: 1025px){
+  .mazowszeMapStyle svg{
+    transform: scale(1.5);
+
+  }
+}
+@media (max-width: 824px){
+  .mazowszeMapStyle svg{
+    height: 370px;
+    transform: scale(1);
+
+  }
+}
+@media (max-width: 770px){
+  .mazowszeMapStyle svg{
+    height: 600px;
+    transform: scale(1);
+
+  }
+}
+@media (max-width: 740px){
+  .mazowszeMapStyle
+  & svg{height: 350px}
+    & path {
+
+    transform: scale(1);
+
+  }}
+  @media (max-width: 645px){
+    .mazowszeMapStyle & svg {
+      height: 300px
+
+    }
+}
+@media (max-width: 569px){
+  .mazowszeMapStyle & svg {
+   height: 250px;
+
+
+  }
+
+}
+@media (max-width: 415px){
+  .mazowszeMapStyle & svg {
+   height: 350px;
+    transform: scale(1);
+
+
+  }
+
+}
