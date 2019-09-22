@@ -1,7 +1,8 @@
 import React from 'react';
 import "./api.scss";
 // var APIkey = `3d6df3bc290f22a1f90a6f7ab363e060`;
-// bbe0c2ba1fbafc16bc5f9d6da20d6048
+// API2 = bbe0c2ba1fbafc16bc5f9d6da20d6048;
+//  `api.openweathermap.org/data/2.5/weather?id=${id}&lang=pl&APPID=3d6df3bc290f22a1f90a6f7ab363e060&units=metric`;
 
 class API extends React.Component {
 
@@ -112,4 +113,3 @@ class API extends React.Component {
 export default API;
 
 
-// const APIurl = `api.openweathermap.org/data/2.5/weather?id=${id}&lang=pl&APPID=3d6df3bc290f22a1f90a6f7ab363e060&units=metric`;

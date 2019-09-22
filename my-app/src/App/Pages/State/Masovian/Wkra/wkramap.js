@@ -102,7 +102,7 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most, przed nim zwężenie nurtu - miejsce po starym młynie. Na prawym brzegu wieś Szumlin i domki letniskowe. Po prawej bar i przystań kajakowa. Płynąc dalej przepływamy przez miejsce zwane dębami, które jest pozostałością po prastarej dębowej puszczy szumalskiej. Historia głosi, że hodowano w niej konie dla rodziny Sobieskich" onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse className={"toolTipWkra"} data-text="Most, przed nim zwężenie nurtu - miejsce po starym młynie. Na prawym brzegu wieś Szumlin i domki letniskowe. Po prawej bar i przystań kajakowa. Płynąc dalej przepływamy przez miejsce zwane dębami, które jest pozostałością po prastarej dębowej puszczy szumalskiej. Historia głosi, że hodowano w niej konie dla rodziny Sobieskich." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="33.301"
                             cy="209.642"
                             fill="maroon"
@@ -116,7 +116,7 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Przed mostem drogowym po prawej stronie dwa bary i przystanie. Dogodne miejsce na odpoczynek i posiłek. Płynąc dalej na lewym brzegu rozciągają się kompleksy leśne, zaś prawy brzeg łagodnie schodzi ku wodzie. W okół liczne domki letniskowe" onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse className={"toolTipWkra"} data-text="Przed mostem drogowym po prawej stronie dwa bary i przystanie. Dogodne miejsce na odpoczynek i posiłek. Płynąc dalej na lewym brzegu rozciągają się kompleksy leśne, zaś prawy brzeg łagodnie schodzi ku wodzie. W okół liczne domki letniskowe." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="61.812"
                             cy="212.607"
                             fill="maroon"

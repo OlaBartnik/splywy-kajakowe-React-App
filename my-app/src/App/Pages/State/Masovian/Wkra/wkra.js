@@ -405,7 +405,7 @@ class RiverDescritpion extends React.Component {
                     wielu miejscowościach powstały mniejsze i większe wypożyczalnie kajaków. Szlak kajakowy Wkry jest
                     wymarzony na spływy indywidualne, rodzinne i grupowe. Woda w rzece jest czysta, a w ciepłych
                     miesiącach lipca i sierpnia również bardzo płytka, co sprawia, że prawie w każdym miejscu można się
-                    zatrzymać i skorzystaćz kąpieli.</p>
+                    zatrzymać i skorzystać z kąpieli.</p>
                 </article>
             </div>
         </div>)

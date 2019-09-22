@@ -2,9 +2,8 @@ import React from 'react';
 import "./navbar.scss";
 import {Link} from 'react-router-dom';
 import logo from "./—Pngtree—hand drawn kayaking kids characters_4076228.png";
-import Wkramap from "../../Pages/State/Masovian/Wkra/wkramap";
-import Slider from "../Slider/slider"
-// import API from "../API/api";
+{/*<a href='https://pngtree.com/so/element ai'>element ai png from pngtree.com</a>*/}
+
 
 
 class Navbar extends React.Component {
@@ -15,11 +14,8 @@ class Navbar extends React.Component {
                 <nav className="header__nav">
                     <ul className="header__nav__list">
                         <Link to="/">Strona główna</Link>
-                        {/*<Link to="/">Mapa</Link>*/}
-                        {/*<Link to="/">Wyznacz trasę</Link>*/}
-                        <Link to="/">Opis rzeki</Link>
-                        <Link to="/">Galeria</Link>
-                        {/*<API cityID={"770028"}/>*/}
+                        <Link to="/wkra">Opis rzeki</Link>
+                        <Link to="/wkra/">Galeria</Link>
                 </ul>
             </nav>
         </div>
