@@ -417,7 +417,6 @@ class Wkra extends React.Component {
         return (
             <div>
                 <div
-                    // style={{height: "100vh"}}
                 >
                     <Navbar/>
                     <Wkramap/>

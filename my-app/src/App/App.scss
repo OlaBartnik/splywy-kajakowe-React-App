@@ -1,7 +1,8 @@
 
 * {
   max-width: 1600px;
-  box-sizing: border-box
+  box-sizing: border-box;
+  //overflow: hidden;
 }
 
 .container {
@@ -9,9 +10,23 @@
   margin: 0 auto;
 }
 
-@media (max-width: 1025px) {
- .container {
-    max-width: 800px;
+@media (max-width: 1500px) {
+  .container {
+    max-width: 900px;
 
+  }
+}
+
+@media (max-width: 1250px) {
+  .container {
+    max-width: 700px;
+
+  }
+}
+
+@media (max-width: 1050px) {
+  .container {
+    max-width: 500px;
+    overflow: hidden;
   }
 }

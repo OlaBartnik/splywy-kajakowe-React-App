@@ -42,39 +42,30 @@
   color: #FFDE17;
 
 }
-//
-//
-//@media (max-width: 1500px) {
-//  .header__nav__list {
-//    margin-right: 220px;
-//  }
-//  .header__nav__list a{
-//    padding: 8px;
-//  }
-//}@media (max-width: 1370px) {
-//  .header__nav__list {
-//    margin-right: 200px;
-//  }
-//  .header__nav__list a{
-//    padding: 8px;
-//  }
-//}
-//@media (max-width: 1025px) {
-//  .header__nav__list {
-//    margin-right: 310px;
-//  }
-//  .header__nav__list a{
-//    padding: 8px;
-//  }
-//}
-//
-//.header img {
-//  margin-left: 30px;
-//}
-//
-//
-//@media (max-width: 700px) {
-//  .header__nav__list a{
-//    font-size: 14px;
-//  }
-//}
+
+@media (max-width: 1050px) {
+
+  .header__nav__list a{
+    padding: 10px;
+  }
+}
+ @media (max-width: 890px) {
+
+  .header__nav__list {
+    margin-right: 80px;
+  }.header__nav__list a{
+    padding: 5px;
+  }
+}
+@media (max-width: 800px) {
+  .header__nav__list {
+display: none;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+  .header img{
+    display: none;
+}}

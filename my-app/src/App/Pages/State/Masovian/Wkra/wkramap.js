@@ -14,7 +14,8 @@ class Wkramap extends React.Component {
                 "top": 0
             },
             "text": '',
-            "classTooltip": "hide"
+            "classTooltip": "hide",
+
         }
     }
 
@@ -27,8 +28,8 @@ class Wkramap extends React.Component {
     onToggleOpen(e) {
         this.setState({
             "style": {
-                "left": e.clientX +30 ,
-                "top": e.clientY -100
+                "left": e.clientX -80 ,
+                "top": e.clientY - 180
             },
             "text": e.currentTarget.dataset.text,
             "classTooltip": ""
