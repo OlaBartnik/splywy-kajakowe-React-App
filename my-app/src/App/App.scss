@@ -8,26 +8,47 @@
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  border: 1px solid red;
+
 }
 
 @media (max-width: 1500px) {
   .container {
-    max-width: 900px;
+    max-width: 1050px;
+
+  }
+}@media (max-width: 1440px) {
+  .container {
+    max-width: 950px;
+
+  }
+}@media (max-width: 1330px) {
+  .container {
+    max-width: 850px;
 
   }
 }
 
 @media (max-width: 1250px) {
   .container {
-    max-width: 700px;
+    max-width: 750px;
+
+  }
+}
+@media (max-width: 1130px) {
+  .container {
+    max-width: 650px;
 
   }
 }
 
 @media (max-width: 1050px) {
   .container {
-    max-width: 500px;
-    overflow: hidden;
+    max-width: 550px;
+
+  }
+}@media (max-width: 930px) {
+  .container {
+    max-width: 450px;
+
   }
 }

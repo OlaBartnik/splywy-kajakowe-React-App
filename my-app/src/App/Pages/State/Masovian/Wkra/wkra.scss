@@ -84,11 +84,16 @@
   background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("./river-2808802_1280 (1).jpg");
   background-size: cover;
   background-position: center;
+  min-height: calc(100vh + 20px);
+  overflow: hidden;
+  display: flex;
+
+
 }
 
 .riverDescritpion {
-  min-height: 100vh;
-  padding-top: 100px;
+
+  padding-top: 80px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -118,6 +123,10 @@
   .formBackground {
     height: calc(100vh - 310px);
 
+  }
+
+  .riverDescritpion {
+    padding-bottom: 50px;
   }
 }
 
