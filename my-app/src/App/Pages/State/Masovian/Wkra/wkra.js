@@ -318,7 +318,7 @@ class RouteSelection extends React.Component {
                 <div className={"formContainer" + " container"}>
                     <h2>Wyznacz trasę swojego spływu</h2>
                     <form onSubmit={this.handleSubmit}>
-                        <label> Start spływu
+                        <label>Start spływu
                             <select id="startSelect" name="start" value={this.state.start}
                                     onChange={this.handleChange}
                                     onClick={this.setEndPoint}
@@ -334,7 +334,7 @@ class RouteSelection extends React.Component {
                                 <option data-id="Joniec" value="Joniec">Joniec</option>
                             </select>
                         </label>
-                        <label> Koniec spływu
+                        <label>Koniec spływu
                             <select id="endSelect" name="end" value={this.state.end}
                                     onChange={this.handleChange}
                                     onClick={this.setStartPoint}>

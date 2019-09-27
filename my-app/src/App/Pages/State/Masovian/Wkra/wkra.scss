@@ -1,6 +1,8 @@
 .formBackground {
   background: #5085A5;
-  min-height: 380px;
+  height: calc(100vh - 360px);
+  min-height: 420px;
+  max-height: 500px;
   overflow: hidden;
 
 
@@ -9,6 +11,7 @@
 .formContainer {
   width: 800px;
   text-align: center;
+
   & h2 {
     padding-top: 45px;
     padding-bottom: 20px;
@@ -28,6 +31,7 @@
     color: #f7f9fb;
     font-size: 15px;
     text-transform: uppercase;
+
   }
 
   & select {
@@ -38,6 +42,7 @@
     border-radius: 5px;
     outline: none;
     color: black;
+    width: 200px;
 
   }
 
@@ -76,7 +81,7 @@
 }
 
 .riverBackground {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url("./river-2808802_1280 (1).jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("./river-2808802_1280 (1).jpg");
   background-size: cover;
   background-position: center;
 }
@@ -89,14 +94,16 @@
   align-items: flex-start;
   justify-content: space-around;
   flex-wrap: wrap;
-& article{
-  flex-grow: 0;
-  flex-basis: 500px;
-  border: 1px solid #5085A5;
-  box-shadow: 0 1px 0 1px rgba(80, 133, 165, 0.5);
-  padding: 10px;
-  margin-bottom: 30px;
-}
+
+  & article {
+    flex-grow: 0;
+    flex-basis: 500px;
+    border: 1px solid #5085A5;
+    box-shadow: 0 1px 0 1px rgba(80, 133, 165, 0.5);
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
   & h3 {
     font-size: 22px;
     color: #31708e;
@@ -107,17 +114,87 @@
   }
 }
 
+@media (max-width: 1500px) {
+  .formBackground {
+    height: calc(100vh - 310px);
 
-@media (max-width: 1300px){
+  }
+}
+
+@media (max-width: 1300px) {
   .formContainer label {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px;
+    margin-bottom: 8px;
+
+
+  }
+  .formContainer label:nth-child(1) {
+    margin-right: -3px;
 
   }
 
   .formContainer input {
     margin-top: 20px;
   }
+}
+
+@media (max-width: 420px) {
+  .formContainer {
+    width: 350px;
+
+    & h2 {
+      padding-top: 20px;
+      font-size: 20px;
+    }
+
+    & label {
+      font-size: 12px;
+
+    }
+
+    & input {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    & p {
+      font-size: 16px;
+    }
+  }
+
+
+}
+
+
+@media (max-width: 380px) {
+  .formBackground {
+    height: calc(100vh - 220px);
+  }
+}
+
+@media (max-width: 325px) {
+  .formContainer {
+    width: 300px;
+
+    & h2 {
+      font-size: 16px;
+
+    }
+
+    & label {
+      font-size: 10px;
+
+    }
+
+    & input {
+      font-size: 14px;
+    }
+
+    & p {
+      font-size: 14px;
+    }
+  }
+
 }

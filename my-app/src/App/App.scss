@@ -2,12 +2,13 @@
 * {
   max-width: 1600px;
   box-sizing: border-box;
-  //overflow: hidden;
+
 }
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 @media (max-width: 1500px) {

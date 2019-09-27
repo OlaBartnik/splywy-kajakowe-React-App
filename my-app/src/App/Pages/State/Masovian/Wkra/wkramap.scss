@@ -1,5 +1,5 @@
 .wkraMapStyle {
-  height: 350px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -14,7 +14,7 @@
 
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1500px) {
   .wkraMapStyle {
     height: 250px;
 
@@ -27,6 +27,7 @@
 
   }
 }
+
 
 
 @media (max-width: 500px) {
