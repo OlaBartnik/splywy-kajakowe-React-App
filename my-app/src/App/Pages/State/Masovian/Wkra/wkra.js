@@ -315,7 +315,7 @@ class RouteSelection extends React.Component {
     render() {
         return (
             <div className={"formBackground"}>
-                <div className={"formContainer" + " container"}>
+                <div className={"formContainer container"}>
                     <h2>Wyznacz trasę swojego spływu</h2>
                     <form onSubmit={this.handleSubmit}>
                         <label>Start spływu
@@ -372,7 +372,7 @@ class RouteSelection extends React.Component {
 class RiverDescritpion extends React.Component {
     render() {
         return (<div className={"riverBackground"}>
-            <div className={"riverDescritpion" + " container"}>
+            <div id={"riverDescritpionId"} className={"riverDescritpion container"}>
                 <article className={"article"}><h3>Co to za rzeka ...</h3><p>Rzeka Wkra – malownicza i bardzo urokliwa,
                     wijąca się wśród pól, łąk i lasów, czasem wrzynająca się w wysokie na kilka, kilkanaście metrów
                     skarpy

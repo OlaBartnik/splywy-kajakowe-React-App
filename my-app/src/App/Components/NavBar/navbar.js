@@ -15,13 +15,13 @@ class Navbar extends React.Component {
                 <nav className="header__nav">
                     <ul className="header__nav__list">
                         <Link to="/">Strona główna</Link>
-                        <Link to="/wkra">Opis rzeki</Link>
-                        <Link to="/wkra/">Galeria</Link>
+                        <a href="#riverDescritpionId">Opis rzeki</a>
+                        <a href="#sliderId">Galeria</a>
                 </ul>
             </nav>
-                {/*<API cityID={"770028"}/>*/}
+
         </div>
-            {/*<API cityID={"770028"}/>*/}
+
 
     </header>
 

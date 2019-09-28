@@ -26,18 +26,49 @@ class Wkramap extends React.Component {
     }
 
     onToggleOpen(e) {
-        this.setState({
-            "style": {
-                "left": e.clientX -80 ,
-                "top": e.clientY - 180
-            },
-            "text": e.currentTarget.dataset.text,
-            "classTooltip": ""
-        });
+        if (e.currentTarget.dataset.class==="tooltipBig") {
+            this.setState({
+                "style": {
+                    "left": e.clientX,
+                    "top": e.clientY
+                },
+                "text": e.currentTarget.dataset.text,
+                "classTooltip": "tooltipBig"
+            })
+        }
+        else if (e.currentTarget.dataset.class==="last") {
+            this.setState({
+                "style": {
+                    "left": e.clientX,
+                    "top": e.clientY
+                },
+                "text": e.currentTarget.dataset.text,
+                "classTooltip": "last"
+            })
+        }  else  if (e.currentTarget.dataset.class==="first") {
+            this.setState({
+                "style": {
+                    "left": e.clientX,
+                    "top": e.clientY
+                },
+                "text": e.currentTarget.dataset.text,
+                "classTooltip": "first"
+            })
+        }
+        else {
+            this.setState({
+                "style": {
+                    "left": e.clientX,
+                    "top": e.clientY
+                },
+                "text": e.currentTarget.dataset.text,
+                "classTooltip": ""
+            })
+        };
     }
 
     render() {
-        return (<div className={"wkraMapStyle" +" container"} >
+        return (<div className={"wkraMapStyle container"}>
             <div style={this.state.style} className={"tooltipWkra " + this.state.classTooltip}>
                 {this.state.text}
             </div>
@@ -75,7 +106,9 @@ class Wkramap extends React.Component {
                             strokeWidth="4.09"
                             d="M-86.193 216.526s-.299-6.721 2.144-8.026c.999-.534 3.217 1.096 3.217 1.096s1.455 5.04 3.592 5.886c1.07.422 3.326-.922 3.326-.922s3.943 1.007 5.785.421c1.757-.558 3.011-2.168 4.272-3.513 2.684-2.865 3.295-7.95 6.874-9.564 3.718-1.677 12.177 1.222 12.177 1.222s7.403-.045 9.822 2.288c1.64 1.58 1.79 6.591 1.79 6.591 10.92-6.676 4.274.787 7.208 1.296 0 0 7.958-4.492 12.032-3.551 3.244.75 3.979 4.635 7.308 4.69 3.914.065 5.08-5.31 8.985-5.584 3.761-.265 9.54 6.079 9.54 6.079 4.101 2.613 8.805-5.119 12.93-6.763 2.424-.966 6.806.74 9.925 2.033 3.107 1.29 5.21 4.364 8.417 5.57 1.74.653 3.858.741 5.574.029 1.862-.774 2.238-4.487 4.247-4.31 1.1.098.791 2.52 1.875 2.73 3.215.626 7.646-2.545 10.515-4.125 2.802-1.545 3.67-5.13 6.433-5.235 5.725-.217 8.28 10.232 14.113 9.808 4.856-.353 6.503-8.269 11.261-9.299 4.47-.968 8.675 3.393 13.245 3.578 1.743.07 3.537-1.628 5.145-.953 3.325 1.395 6.045 8.971 6.045 8.971s5.114 14.206 11.185 14.388c2.72.08 5.387-6.135 5.387-6.135 2.982-6.629 2.327-4.92 4.364-5.54 4.714-1.439 14.044 4.635 14.044 4.635"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drogowy. Na brzegach rozległe trawiaste płaszczyzny używane do celów piknikowych. Las sosnowy. Przez około kilometr rzeka o szerokości 30 - 50 metrów płynie przez rezerwat przyrody „Dolina Wkry”." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse
+                            data-text="Most drogowy. Na brzegach rozległe trawiaste płaszczyzny używane do celów piknikowych. Las sosnowy. Przez około kilometr rzeka o szerokości 30 - 50 metrów płynie przez rezerwat przyrody „Dolina Wkry”."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="122.028"
                             cy="218.994"
                             fill="maroon"
@@ -89,7 +122,9 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drogowy, z lewej wieś Cieksyn, z prawej strony wieś Borkowo. Kamienisty niewysoki próg w miejscu dawnego mostu. Na skarpie znajduje się sklep, przy którym jest obelisk upamiętniający miejsce historyczne wojny w 1920 roku. Obroną tego odcinka dowodził Generał Władysław Sikorski." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse
+                            data-text="Kamienisty niewysoki próg w miejscu dawnego mostu. Na skarpie znajduje się sklep, przy którym jest obelisk upamiętniający miejsce historyczne wojny w 1920 roku. Obroną tego odcinka dowodził Generał Władysław Sikorski."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="95.797"
                             cy="206.221"
                             fill="maroon"
@@ -103,21 +138,25 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most, przed nim zwężenie nurtu - miejsce po starym młynie. Na prawym brzegu wieś Szumlin i domki letniskowe. Po prawej bar i przystań kajakowa. Płynąc dalej przepływamy przez miejsce zwane dębami, które jest pozostałością po prastarej dębowej puszczy szumalskiej. Historia głosi, że hodowano w niej konie dla rodziny Sobieskich." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
-                            cx="33.301"
-                            cy="209.642"
-                            fill="maroon"
-                            fillOpacity="1"
-                            stroke="none"
-                            strokeDasharray="none"
-                            strokeMiterlimit="4"
-                            strokeOpacity="1"
-                            strokeWidth="0.871"
-                            opacity="1"
-                            rx="3.079"
-                            ry="3.202"
+                        <ellipse data-class="tooltipBig"
+                                 data-text="Most, przed nim zwężenie nurtu - miejsce po starym młynie. Na prawym brzegu wieś Szumlin i domki letniskowe. Po prawej bar i przystań kajakowa. Płynąc dalej przepływamy przez miejsce zwane dębami, które jest pozostałością po prastarej dębowej puszczy szumalskiej. Historia głosi, że hodowano w niej konie dla rodziny Sobieskich."
+                                 onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                                 cx="33.301"
+                                 cy="209.642"
+                                 fill="maroon"
+                                 fillOpacity="1"
+                                 stroke="none"
+                                 strokeDasharray="none"
+                                 strokeMiterlimit="4"
+                                 strokeOpacity="1"
+                                 strokeWidth="0.871"
+                                 opacity="1"
+                                 rx="3.079"
+                                 ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Przed mostem drogowym po prawej stronie dwa bary i przystanie. Dogodne miejsce na odpoczynek i posiłek. Płynąc dalej na lewym brzegu rozciągają się kompleksy leśne, zaś prawy brzeg łagodnie schodzi ku wodzie. W okół liczne domki letniskowe." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse
+                            data-text="Przed mostem drogowym po prawej stronie dwa bary i przystanie. Dogodne miejsce na odpoczynek i posiłek. Płynąc dalej na lewym brzegu rozciągają się kompleksy leśne, zaś prawy brzeg łagodnie schodzi ku wodzie. W okół liczne domki letniskowe."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="61.812"
                             cy="212.607"
                             fill="maroon"
@@ -131,21 +170,25 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drogowy. Po prawej stronie plaża i kąpielisko. W korycie rzeki pozostałości dawnego mostu - zaleca się przepływać prawą stroną. Po ok 30 min płynięcia pojawia się niewielka wyspa, zauważalne zwężenie nurtu. Jest to miejsce po starym młynie nazywane przez miejscowych „groblą”." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
-                            cx="17.107"
-                            cy="213.519"
-                            fill="maroon"
-                            fillOpacity="1"
-                            stroke="none"
-                            strokeDasharray="none"
-                            strokeMiterlimit="4"
-                            strokeOpacity="1"
-                            strokeWidth="0.871"
-                            opacity="1"
-                            rx="3.079"
-                            ry="3.202"
+                        <ellipse data-class="tooltipBig"
+                                 data-text="Most drogowy. Po prawej stronie plaża i kąpielisko. W korycie rzeki pozostałości dawnego mostu - zaleca się przepływać prawą stroną. Po ok 30 min płynięcia pojawia się niewielka wyspa, zauważalne zwężenie nurtu. Jest to miejsce po starym młynie nazywane przez miejscowych „groblą”."
+                                 onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                                 cx="17.107"
+                                 cy="213.519"
+                                 fill="maroon"
+                                 fillOpacity="1"
+                                 stroke="none"
+                                 strokeDasharray="none"
+                                 strokeMiterlimit="4"
+                                 strokeOpacity="1"
+                                 strokeWidth="0.871"
+                                 opacity="1"
+                                 rx="3.079"
+                                 ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drogowy i kolejowy. Sklepy i bar na lewym brzegu. Z prawej barokowy kościół. Z lewej możliwość biwakowania na rozległych łąkach nad płytką rzeką." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse data-class="last"
+                            data-text="Most drogowy i kolejowy. Sklepy i bar na lewym brzegu. Z prawej barokowy kościół. Z lewej możliwość biwakowania na rozległych łąkach nad płytką rzeką."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="155.101"
                             cy="222.643"
                             fill="maroon"
@@ -159,7 +202,9 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drogowy. Przed mostem po lewej stronie barek i przystań kajakowa. Z uwagi na drewniane pale, pod mostem należy  przepływać lewą stroną. Po ok 10 minutach na prawym brzegu wznosi się Górka Napoleona, miejsce związane z przemarszem wojsk napoleońskich." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse
+                            data-text="Most drogowy. Przed mostem po lewej stronie barek i przystań kajakowa. Z uwagi na drewniane pale, pod mostem należy  przepływać lewą stroną. Po ok 10 minutach na prawym brzegu wznosi się Górka Napoleona, miejsce związane z przemarszem wojsk napoleońskich."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="-10.264"
                             cy="212.379"
                             fill="maroon"
@@ -173,7 +218,9 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drogowy. Z prawej ceglany gotycki kościół. Na stromej skarpie Wkry rezerwat „Dziektarzewo” chroniący naturalny las mieszany." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse data-class="first"
+                            data-text="Most drogowy. Z prawej ceglany gotycki kościół. Na stromej skarpie Wkry rezerwat „Dziektarzewo” chroniący naturalny las mieszany."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="-86.193"
                             cy="216.526"
                             fill="maroon"
@@ -187,7 +234,9 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drogowy. Rzeka jest tu bardzo płytka, dno piaszczyste, to świetne miejsce by zażyć kąpieli." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse
+                            data-text="Most drogowy. Rzeka jest tu bardzo płytka, dno piaszczyste, to świetne miejsce by zażyć kąpieli."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="-64.321"
                             cy="211.923"
                             fill="maroon"
@@ -201,7 +250,9 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drogowy - przed nim na lewym brzegu częściowo drewniany a częściowo murowany kościół (XVI - XVIII w), obok sklep." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse
+                            data-text="Most drogowy - przed nim na lewym brzegu częściowo drewniany a częściowo murowany kościół (XVI - XVIII w), obok sklep."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="-54.057"
                             cy="201.203"
                             fill="maroon"
@@ -215,7 +266,9 @@ class Wkramap extends React.Component {
                             rx="3.079"
                             ry="3.202"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Most drewniany. Na zboczach rzeki domki letniskowe oraz miejsce na biwak, kąpielisko. Na prawym brzegu sosnowy las." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse
+                            data-text="Most drewniany. Na zboczach rzeki domki letniskowe oraz miejsce na biwak, kąpielisko. Na prawym brzegu sosnowy las."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="-40.941"
                             cy="203.453"
                             fill="maroon"
@@ -660,7 +713,7 @@ class Wkramap extends React.Component {
                             }}
                         >
                             <tspan
-                                style={{ lineHeight: "0" }}
+                                style={{lineHeight: "0"}}
                                 x="6.458"
                                 y="231.35"
                                 strokeWidth="0.265"
@@ -668,22 +721,25 @@ class Wkramap extends React.Component {
                                 KIERUNEK SPŁYWU
                             </tspan>
                         </text>
-                        <ellipse className={"toolTipWkra"} data-text="PRZENOSKA lewą stroną przy małej elektrowni wodnej w Bolęcinie." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
-                            cx="215.363"
-                            cy="26.45"
-                            fill="#ffde17"
-                            fillOpacity="0.941"
-                            stroke="none"
-                            strokeDasharray="none"
-                            strokeMiterlimit="4"
-                            strokeOpacity="1"
-                            strokeWidth="0.428"
-                            opacity="1"
-                            rx="1.488"
-                            ry="1.601"
-                            transform="matrix(.1807 .98354 -.98857 .15076 0 0)"
+                        <ellipse data-text="PRZENOSKA lewą stroną przy małej elektrowni wodnej w Bolęcinie."
+                                 onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                                 cx="215.363"
+                                 cy="26.45"
+                                 fill="#ffde17"
+                                 fillOpacity="0.941"
+                                 stroke="none"
+                                 strokeDasharray="none"
+                                 strokeMiterlimit="4"
+                                 strokeOpacity="1"
+                                 strokeWidth="0.428"
+                                 opacity="1"
+                                 rx="1.488"
+                                 ry="1.601"
+                                 transform="matrix(.1807 .98354 -.98857 .15076 0 0)"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Jaz i bystrze - pozostałości po dawnym młynie. Miejsce niebezpieczne, PRZENOSKA lewą stroną na wysokości betonowych umocnień po dawnym młynie." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse
+                            data-text="Jaz i bystrze - pozostałości po dawnym młynie. Miejsce niebezpieczne, PRZENOSKA lewą stroną na wysokości betonowych umocnień po dawnym młynie."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="205.3"
                             cy="52.759"
                             fill="#ffde17"
@@ -698,7 +754,9 @@ class Wkramap extends React.Component {
                             ry="1.601"
                             transform="matrix(.1807 .98354 -.98857 .15076 0 0)"
                         />
-                        <ellipse className={"toolTipWkra"} data-text="Pozostałości po drewnianym moście w Gutarzewie. PRZENOSKA lewą stroną, po prawej stronie plaża i miejsce na odpoczynek. Można dostrzec wieżę z lufą niemieckiego czołgu Pantera, który podczas ucieczki w 1945 roku przed Rosjanami runął z drewnianego mostu do rzeki." onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                        <ellipse data-class="tooltipBig"
+                            data-text="Pozostałości po drewnianym moście w Gutarzewie. PRZENOSKA lewą stroną, po prawej stronie plaża i miejsce na odpoczynek. Można dostrzec wieżę z lufą niemieckiego czołgu Pantera, który podczas ucieczki w 1945 roku przed Rosjanami runął z drewnianego mostu do rzeki."
+                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
                             cx="207.04"
                             cy="64.132"
                             fill="#ffde17"

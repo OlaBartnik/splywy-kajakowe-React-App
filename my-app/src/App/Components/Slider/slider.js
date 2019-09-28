@@ -32,6 +32,19 @@ class Slider extends React.Component {
             currentIndex: 0,
             translateValue: 0
         }
+
+        this.updateDimensions = this.updateDimensions.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener("resize", this.updateDimensions);
+    }
+
+    updateDimensions() {
+        let state = this.state;
+        state['translateValue'] = 0;
+        state['currentIndex'] = 0;
+        this.setState(state);
     }
 
     goToPrevSlide = () => {
@@ -67,7 +80,7 @@ class Slider extends React.Component {
     }
 
     render() {
-        return (<div className={"sliderContainer" + " container"}>
+        return (<div id={"sliderId"}className={"sliderContainer container"}>
             <h2 className={"sliderTitle"}>Wkra w obiektywie aparatu</h2>
             <div className={"slider"}>
                 <div className="slider-wrapper"

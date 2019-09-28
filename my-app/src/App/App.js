@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    HashRouter,
+    BrowserRouter,
     Route,
     Switch
 
@@ -15,14 +15,14 @@ import NotFound from "./Pages/404/404";
 
 class App extends React.Component {
     render() {
-        return <HashRouter>
+        return <BrowserRouter>
             <Switch>
                 <Route exact path='/' component={Main}/>
                 <Route path='/masovian' component={Masovian}/>
                 <Route path='/wkra' component={Wkra}/>
                 <Route component={NotFound}/>
             </Switch>
-        </HashRouter>
+        </BrowserRouter>
     }
 }
 
