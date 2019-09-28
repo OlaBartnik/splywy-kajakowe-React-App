@@ -416,8 +416,7 @@ class Wkra extends React.Component {
     render() {
         return (
             <div>
-                <div
-                >
+                <div>
                     <Navbar/>
                     <Wkramap/>
                     <RouteSelection/>

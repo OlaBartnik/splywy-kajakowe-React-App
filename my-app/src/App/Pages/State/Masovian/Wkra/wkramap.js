@@ -26,45 +26,24 @@ class Wkramap extends React.Component {
     }
 
     onToggleOpen(e) {
-        if (e.currentTarget.dataset.class==="tooltipBig") {
-            this.setState({
-                "style": {
-                    "left": e.clientX,
-                    "top": e.clientY
-                },
-                "text": e.currentTarget.dataset.text,
-                "classTooltip": "tooltipBig"
-            })
+        let tooltipclass = '';
+        if (e.currentTarget.dataset.class === "tooltipBig") {
+            tooltipclass = 'tooltipBig';
+        } else if (e.currentTarget.dataset.class === "last") {
+            tooltipclass = 'last';
+        } else if (e.currentTarget.dataset.class === "first") {
+            tooltipclass = 'first';
         }
-        else if (e.currentTarget.dataset.class==="last") {
-            this.setState({
-                "style": {
-                    "left": e.clientX,
-                    "top": e.clientY
-                },
-                "text": e.currentTarget.dataset.text,
-                "classTooltip": "last"
-            })
-        }  else  if (e.currentTarget.dataset.class==="first") {
-            this.setState({
-                "style": {
-                    "left": e.clientX,
-                    "top": e.clientY
-                },
-                "text": e.currentTarget.dataset.text,
-                "classTooltip": "first"
-            })
-        }
-        else {
-            this.setState({
-                "style": {
-                    "left": e.clientX,
-                    "top": e.clientY
-                },
-                "text": e.currentTarget.dataset.text,
-                "classTooltip": ""
-            })
-        };
+
+        this.setState({
+            "style": {
+                "left": e.clientX,
+                "top": e.clientY
+            },
+            "text": e.currentTarget.dataset.text,
+            "classTooltip": tooltipclass
+        })
+
     }
 
     render() {
@@ -187,20 +166,20 @@ class Wkramap extends React.Component {
                                  ry="3.202"
                         />
                         <ellipse data-class="last"
-                            data-text="Most drogowy i kolejowy. Sklepy i bar na lewym brzegu. Z prawej barokowy kościół. Z lewej możliwość biwakowania na rozległych łąkach nad płytką rzeką."
-                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
-                            cx="155.101"
-                            cy="222.643"
-                            fill="maroon"
-                            fillOpacity="1"
-                            stroke="none"
-                            strokeDasharray="none"
-                            strokeMiterlimit="4"
-                            strokeOpacity="1"
-                            strokeWidth="0.871"
-                            opacity="1"
-                            rx="3.079"
-                            ry="3.202"
+                                 data-text="Most drogowy i kolejowy. Sklepy i bar na lewym brzegu. Z prawej barokowy kościół. Z lewej możliwość biwakowania na rozległych łąkach nad płytką rzeką."
+                                 onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                                 cx="155.101"
+                                 cy="222.643"
+                                 fill="maroon"
+                                 fillOpacity="1"
+                                 stroke="none"
+                                 strokeDasharray="none"
+                                 strokeMiterlimit="4"
+                                 strokeOpacity="1"
+                                 strokeWidth="0.871"
+                                 opacity="1"
+                                 rx="3.079"
+                                 ry="3.202"
                         />
                         <ellipse
                             data-text="Most drogowy. Przed mostem po lewej stronie barek i przystań kajakowa. Z uwagi na drewniane pale, pod mostem należy  przepływać lewą stroną. Po ok 10 minutach na prawym brzegu wznosi się Górka Napoleona, miejsce związane z przemarszem wojsk napoleońskich."
@@ -219,20 +198,20 @@ class Wkramap extends React.Component {
                             ry="3.202"
                         />
                         <ellipse data-class="first"
-                            data-text="Most drogowy. Z prawej ceglany gotycki kościół. Na stromej skarpie Wkry rezerwat „Dziektarzewo” chroniący naturalny las mieszany."
-                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
-                            cx="-86.193"
-                            cy="216.526"
-                            fill="maroon"
-                            fillOpacity="1"
-                            stroke="none"
-                            strokeDasharray="none"
-                            strokeMiterlimit="4"
-                            strokeOpacity="1"
-                            strokeWidth="0.871"
-                            opacity="1"
-                            rx="3.079"
-                            ry="3.202"
+                                 data-text="Most drogowy. Z prawej ceglany gotycki kościół. Na stromej skarpie Wkry rezerwat „Dziektarzewo” chroniący naturalny las mieszany."
+                                 onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                                 cx="-86.193"
+                                 cy="216.526"
+                                 fill="maroon"
+                                 fillOpacity="1"
+                                 stroke="none"
+                                 strokeDasharray="none"
+                                 strokeMiterlimit="4"
+                                 strokeOpacity="1"
+                                 strokeWidth="0.871"
+                                 opacity="1"
+                                 rx="3.079"
+                                 ry="3.202"
                         />
                         <ellipse
                             data-text="Most drogowy. Rzeka jest tu bardzo płytka, dno piaszczyste, to świetne miejsce by zażyć kąpieli."
@@ -755,21 +734,21 @@ class Wkramap extends React.Component {
                             transform="matrix(.1807 .98354 -.98857 .15076 0 0)"
                         />
                         <ellipse data-class="tooltipBig"
-                            data-text="Pozostałości po drewnianym moście w Gutarzewie. PRZENOSKA lewą stroną, po prawej stronie plaża i miejsce na odpoczynek. Można dostrzec wieżę z lufą niemieckiego czołgu Pantera, który podczas ucieczki w 1945 roku przed Rosjanami runął z drewnianego mostu do rzeki."
-                            onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
-                            cx="207.04"
-                            cy="64.132"
-                            fill="#ffde17"
-                            fillOpacity="0.941"
-                            stroke="none"
-                            strokeDasharray="none"
-                            strokeMiterlimit="4"
-                            strokeOpacity="1"
-                            strokeWidth="0.428"
-                            opacity="1"
-                            rx="1.488"
-                            ry="1.601"
-                            transform="matrix(.1807 .98354 -.98857 .15076 0 0)"
+                                 data-text="Pozostałości po drewnianym moście w Gutarzewie. PRZENOSKA lewą stroną, po prawej stronie plaża i miejsce na odpoczynek. Można dostrzec wieżę z lufą niemieckiego czołgu Pantera, który podczas ucieczki w 1945 roku przed Rosjanami runął z drewnianego mostu do rzeki."
+                                 onMouseEnter={this.onToggleOpen} onMouseLeave={this.onToggleClose}
+                                 cx="207.04"
+                                 cy="64.132"
+                                 fill="#ffde17"
+                                 fillOpacity="0.941"
+                                 stroke="none"
+                                 strokeDasharray="none"
+                                 strokeMiterlimit="4"
+                                 strokeOpacity="1"
+                                 strokeWidth="0.428"
+                                 opacity="1"
+                                 rx="1.488"
+                                 ry="1.601"
+                                 transform="matrix(.1807 .98354 -.98857 .15076 0 0)"
                         />
                         <ellipse
                             cx="233.93"
