@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/splywy-kajakowe-React-App/static/css/main.0cce2f27.chunk.css",
+    "main.js": "/splywy-kajakowe-React-App/static/js/main.56f99096.chunk.js",
+    "main.js.map": "/splywy-kajakowe-React-App/static/js/main.56f99096.chunk.js.map",
+    "runtime-main.js": "/splywy-kajakowe-React-App/static/js/runtime-main.18729df4.js",
+    "runtime-main.js.map": "/splywy-kajakowe-React-App/static/js/runtime-main.18729df4.js.map",
+    "static/css/2.679831fc.chunk.css": "/splywy-kajakowe-React-App/static/css/2.679831fc.chunk.css",
+    "static/js/2.794d09ca.chunk.js": "/splywy-kajakowe-React-App/static/js/2.794d09ca.chunk.js",
+    "static/js/2.794d09ca.chunk.js.map": "/splywy-kajakowe-React-App/static/js/2.794d09ca.chunk.js.map",
+    "index.html": "/splywy-kajakowe-React-App/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/splywy-kajakowe-React-App/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.0cce2f27.chunk.css.map": "/splywy-kajakowe-React-App/static/css/main.0cce2f27.chunk.css.map",
+    "static/js/2.794d09ca.chunk.js.LICENSE.txt": "/splywy-kajakowe-React-App/static/js/2.794d09ca.chunk.js.LICENSE.txt",
+    "static/media/autumn-219972_1280.afa25034.jpg": "/splywy-kajakowe-React-App/static/media/autumn-219972_1280.afa25034.jpg",
+    "static/media/main.scss": "/splywy-kajakowe-React-App/static/media/autumn-972708_1920.75db6b6a.jpg",
+    "static/media/autumn-972786_1920.9a62a56a.jpg": "/splywy-kajakowe-React-App/static/media/autumn-972786_1920.9a62a56a.jpg",
+    "static/media/clouds-daylight-environment-786134.d287dfbd.jpg": "/splywy-kajakowe-React-App/static/media/clouds-daylight-environment-786134.d287dfbd.jpg",
+    "static/media/lake-72843_1280.1d1696b0.jpg": "/splywy-kajakowe-React-App/static/media/lake-72843_1280.1d1696b0.jpg",
+    "static/media/wkra.scss": "/splywy-kajakowe-React-App/static/media/river-2808802_1280 (1).f07278fb.jpg",
+    "static/media/river-2808802_1280.f07278fb.jpg": "/splywy-kajakowe-React-App/static/media/river-2808802_1280.f07278fb.jpg",
+    "static/media/masovian.scss": "/splywy-kajakowe-React-App/static/media/river-977476_1920.8b15ff52.jpg",
+    "static/media/water-1246643_1920.f953be49.jpg": "/splywy-kajakowe-React-App/static/media/water-1246643_1920.f953be49.jpg",
+    "static/media/web-2591485_1920.b2b30553.jpg": "/splywy-kajakowe-React-App/static/media/web-2591485_1920.b2b30553.jpg",
+    "static/media/wkra-1685383_1920.c3f1845c.jpg": "/splywy-kajakowe-React-App/static/media/wkra-1685383_1920.c3f1845c.jpg",
+    "static/media/—Pngtree—hand drawn kayaking kids characters_4076228.be7b6d4e.png": "/splywy-kajakowe-React-App/static/media/—Pngtree—hand drawn kayaking kids characters_4076228.be7b6d4e.png",
+    "static/media/404.scss": "/splywy-kajakowe-React-App/static/media/—Pngtree—webpage 404 error interface text_4043821.44dc2077.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18729df4.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.794d09ca.chunk.js",
+    "static/css/main.0cce2f27.chunk.css",
+    "static/js/main.56f99096.chunk.js"
+  ]
+}
