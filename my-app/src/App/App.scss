@@ -1,6 +1,5 @@
-
 * {
-  max-width: 1600px;
+  //max-width: 1600px;
   box-sizing: border-box;
 
 }
@@ -16,12 +15,16 @@
     max-width: 1050px;
 
   }
-}@media (max-width: 1440px) {
+}
+
+@media (max-width: 1440px) {
   .container {
     max-width: 950px;
 
   }
-}@media (max-width: 1330px) {
+}
+
+@media (max-width: 1330px) {
   .container {
     max-width: 850px;
 
@@ -34,6 +37,7 @@
 
   }
 }
+
 @media (max-width: 1130px) {
   .container {
     max-width: 650px;
@@ -46,7 +50,9 @@
     max-width: 550px;
 
   }
-}@media (max-width: 930px) {
+}
+
+@media (max-width: 930px) {
   .container {
     max-width: 450px;
 
