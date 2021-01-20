@@ -79,7 +79,7 @@ class API extends React.Component {
 
 
     refresh() {
-        let APIurl = `http://api.openweathermap.org/data/2.5/weather?id=${this.state.id}&lang=pl&APPID=bbe0c2ba1fbafc16bc5f9d6da20d6048&units=metric`;
+        let APIurl = `https://api.openweathermap.org/data/2.5/weather?id=${this.state.id}&lang=pl&APPID=bbe0c2ba1fbafc16bc5f9d6da20d6048&units=metric`;
 
         fetch(APIurl)
             .then(response => {
