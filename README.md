@@ -25,8 +25,11 @@ The application displays the current weather.
 
 
 ![layout](screenshot1.jpg)
+<br/>
 ![layout](screenshot2.jpg)
+<br/>
 ![layout](screenshot3.jpg)
+<br/>
 ![layout](screenshot4.jpg)
 
 
