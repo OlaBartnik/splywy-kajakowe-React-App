@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/splywy-kajakowe-React-App/static/css/main.0cce2f27.chunk.css",
-    "main.js": "/splywy-kajakowe-React-App/static/js/main.986b76d3.chunk.js",
-    "main.js.map": "/splywy-kajakowe-React-App/static/js/main.986b76d3.chunk.js.map",
+    "main.js": "/splywy-kajakowe-React-App/static/js/main.d2186f19.chunk.js",
+    "main.js.map": "/splywy-kajakowe-React-App/static/js/main.d2186f19.chunk.js.map",
     "runtime-main.js": "/splywy-kajakowe-React-App/static/js/runtime-main.18729df4.js",
     "runtime-main.js.map": "/splywy-kajakowe-React-App/static/js/runtime-main.18729df4.js.map",
     "static/css/2.679831fc.chunk.css": "/splywy-kajakowe-React-App/static/css/2.679831fc.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.679831fc.chunk.css",
     "static/js/2.794d09ca.chunk.js",
     "static/css/main.0cce2f27.chunk.css",
-    "static/js/main.986b76d3.chunk.js"
+    "static/js/main.d2186f19.chunk.js"
   ]
 }
