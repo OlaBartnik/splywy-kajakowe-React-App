@@ -15,7 +15,7 @@ import NotFound from "./Pages/404/404";
 
 class App extends React.Component {
     render() {
-        return <BrowserRouter>
+        return <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path='/' component={Main}/>
                 <Route path='/masovian' component={Masovian}/>
